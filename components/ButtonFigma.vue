@@ -1,50 +1,39 @@
 <template>
-
-
   <button type="button" class="btn buttonfigma d-inline-flex m-5">
-
     <img class="iconfigma ps-3 " src="~static/figmaicon.svg">
 
-
     <p class="px-3">
-      {{buttontext}}
+      <slot></slot>
     </p>
-
-    </div>
-
   </button>
-
 </template>
 
 <script>
 
 export default {
-  name: 'Card',
+  name: 'ButtonFigma',
   props: ['buttontext'],
-
-
 }
 
 </script>
 
 <style>
 
-.buttonfigma{
+.buttonfigma {
   background-color: white;
   border-radius: 15px;
   height: 38px;
 }
 
-.buttonfigma:hover{
+.buttonfigma:hover {
   background-color: black;
   color: white;
   transition: 0.3s ease-in-out;
 }
 
-.iconfigma{
+.iconfigma {
   height: 23px;
 }
-
 
 
 </style>

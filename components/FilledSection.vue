@@ -2,35 +2,32 @@
 
   <div class="container-fluid filled justify-content-center p-5">
 
-
-          <h2 class="firsttitle my-4 mt-5">
-            {{title}}
-          </h2>
+    <h2 class="firsttitle my-4 mt-5">
+      {{ title }}
+    </h2>
 
     <div class="row justify-content-center">
-          <p class=" subtitle ">
-            {{sottotitolo}}
-          </p>
+      <p class="subtitle ">
+        {{ sottotitolo }}
+      </p>
 
     </div>
 
     <div>
-      <ButtonFigma
-        buttontext="Accedi al Pack"
-      />
+      <ButtonFigma>
+        Accedi al pack
+      </ButtonFigma>
     </div>
 
 
-      </div>
-
-
+  </div>
 
 </template>
 
 <script>
 
 export default {
-  name: 'Card',
+  name: 'FilledSection',
   props: ['title', 'imgSrc', 'chisono', 'sottotitolo'],
   data() {
     return {
@@ -49,22 +46,21 @@ export default {
 
 <style>
 
-.filled{
+.filled {
   width: 100vw;
   background-color: #FCBB16;
   text-align: center;
   color: white;
 }
 
-.firsttitle{
+.firsttitle {
   font-weight: 700;
   font-size: 45px;
 }
 
-.subtitle{
+.subtitle {
   max-width: 520px;
 }
-
 
 
 </style>
