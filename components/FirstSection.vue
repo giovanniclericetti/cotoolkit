@@ -2,8 +2,7 @@
 
   <div class="container-fluid sectionone mt-5 p-5 ">
     <div class="row align-items-center p-5">
-      <div class="col">
-
+      <div class="col-md-7">
 
           <h2 class="firsttitle mb-4">
             {{title}}
@@ -13,14 +12,11 @@
             {{sottotitolo}}
           </p>
 
-
-
-
-
       </div>
-      <div class="col">
 
-        <img :src="imgSrc">
+      <div class="col mt-5">
+
+        <img class="gifcover" src="~static/home_section.gif">
 
       </div>
     </div>
@@ -56,12 +52,15 @@ export default {
   height: 100vh;
   width: 100vw;
   background-color: white;
-
 }
 
 .firsttitle{
   font-weight: 700;
   font-size: 45px;
+}
+
+.gifcover{
+  width: 100%;
 }
 
 
