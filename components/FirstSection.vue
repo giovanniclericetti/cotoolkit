@@ -16,13 +16,13 @@
 
       <div class="col mt-5">
 
-        <img class="gifcover" src="~static/home_section.gif">
+        <img class="gifcover" src="~assets/images/home_section.gif">
 
       </div>
     </div>
 
     <div>
-      <img src="~static/freccia.svg" class="mx-auto d-block">
+      <img src="~assets/svg/freccia.svg" class="mx-auto d-block">
     </div>
   </div>
 

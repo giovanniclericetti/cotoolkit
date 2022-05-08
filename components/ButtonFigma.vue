@@ -1,6 +1,6 @@
 <template>
   <button type="button" class="btn buttonfigma d-inline-flex m-5">
-    <img class="iconfigma ps-3 " src="~static/figmaicon.svg">
+    <img class="iconfigma ps-3 " src="~assets/svg/figmaicon.svg">
 
     <p class="px-3">
       <slot></slot>
@@ -12,7 +12,6 @@
 
 export default {
   name: 'ButtonFigma',
-  props: ['buttontext'],
 }
 
 </script>

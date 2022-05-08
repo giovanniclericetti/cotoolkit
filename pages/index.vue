@@ -9,7 +9,7 @@
     <div>
       <FirstSection
         title="Un toolkit di Co-design per gestire il tuo progetto di community branding."
-        imgSrc="static/logo.svg"
+        imgSrc="~assets/svg/logo.svg"
       >
         Un Figma pack rivolto ai designer per supportare progetti di <b>
         branding
