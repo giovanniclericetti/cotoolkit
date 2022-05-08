@@ -1,5 +1,5 @@
 <template>
-  <div class="">
+  <div>
 
 
     <div>
@@ -7,8 +7,8 @@
     </div>
 
     <div>
-      <FirstSection
-        title="Un toolkit di Co-design per gestire il tuo progetto di community branding."
+      <FirstSection title= "Un toolkit di Co-design per gestire il tuo progetto di community branding."
+
         sottotitolo="Un Figma pack rivolto ai designer per supportare progetti di branding
 per le community attraverso un toolkit e un framework di Co-design completamente web-based."
 
@@ -17,31 +17,22 @@ per le community attraverso un toolkit e un framework di Co-design completamente
       />
     </div>
 
-
     <div>
-      <Card title="titolo della card 1" />
-      <Card title="titolo della card 2" imgSrc="https://avatars.githubusercontent.com/u/43304601?v=4" chisono="ciao, io sono michiburno"/>
-      <Card title="titolo della card 3" imgSrc="https://avatars.githubusercontent.com/u/77500466?v=4" chisono="ciao, io sono giocle"/>
+      <FilledSection
+
+        title="Inizia a Co-creare"
+        sottotitolo="Apri un nuovo progetto su Figma, segui gli 8 step del Co-Framework e crea un nuovo brand collaborando con la community."
+
+
+      />
     </div>
+
+
+
+
   </div>
 </template>
 
 <script>
-export default {
-  name: 'IndexPage',
-  data() {
-    return {
-      cards: [
-      {
-        title: 'Card1'
-      },
-      {title: 'Card2'},
-      {title:'Card3'}
-      ]
-    };
-  }
-}
-
-//per renderlo variabile o DUE GRAFFE per testo o DUE PUNTI davanti attirbuto
 
 </script>

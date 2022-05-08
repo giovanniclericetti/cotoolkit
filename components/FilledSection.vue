@@ -1,30 +1,27 @@
 <template>
 
-  <div class="container-fluid sectionone mt-5 p-5">
-    <div class="row align-items-center p-5">
-      <div class="col-md-7">
+  <div class="container-fluid filled justify-content-center p-5">
 
-          <h2 class="firsttitle mb-4">
+
+          <h2 class="firsttitle my-4 mt-5">
             {{title}}
           </h2>
 
-          <p>
+    <div class="row justify-content-center">
+          <p class=" subtitle ">
             {{sottotitolo}}
           </p>
 
-      </div>
-
-      <div class="col mt-5">
-
-        <img class="gifcover" src="~static/home_section.gif">
-
-      </div>
     </div>
 
     <div>
-      <img  src="~static/freccia.svg" class="mx-auto d-block">
+      <ButtonFigma
+        buttontext="Accedi al Pack"
+      />
     </div>
-  </div>
+
+
+      </div>
 
 
 
@@ -52,10 +49,11 @@ export default {
 
 <style>
 
-.sectionone{
-  height: 100vh;
+.filled{
   width: 100vw;
-  background-color: white;
+  background-color: #FCBB16;
+  text-align: center;
+  color: white;
 }
 
 .firsttitle{
@@ -63,18 +61,10 @@ export default {
   font-size: 45px;
 }
 
-.gifcover{
-  width: 100%;
+.subtitle{
+  max-width: 520px;
 }
 
 
-@media (max-width: 768px) {
-
-  .sectionone{
-    height: auto;
-
-  }
-
-}
 
 </style>

@@ -9,7 +9,7 @@
   .global-wrapper {
     max-width: 1200px;
     margin: 0px;
-    background-color:lightblue;
+    background-color:red;
   }
 
   body{
