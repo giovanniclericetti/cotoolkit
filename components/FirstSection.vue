@@ -9,7 +9,7 @@
           </h2>
 
           <p>
-            {{sottotitolo}}
+            <slot/>
           </p>
 
       </div>
