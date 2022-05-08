@@ -1,6 +1,6 @@
 <template>
 
-  <div class="ciao">
+  <div class="red">
     <h2> bella bro </h2>
   </div>
 
@@ -26,8 +26,9 @@ export default {
 
 <style scoped>
 
-.ciao{
-  background-color: red;
+.red{
+  background-color: orange;
+  padding: 20px;
 }
 
 </style>

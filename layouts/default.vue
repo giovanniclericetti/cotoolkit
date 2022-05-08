@@ -5,9 +5,11 @@
 </template>
 
 <style>
+
   .global-wrapper {
     max-width: 1200px;
     margin: auto;
     background-color:lightblue;
   }
+
 </style>
