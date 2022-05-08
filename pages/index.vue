@@ -1,9 +1,14 @@
 <template>
   <div class="">
 
-    <h2>Titolo home page</h2>
-    <div >
-      <Card title="titolo della card" />
+
+    <div>
+    <Navbar/>
+    </div>
+
+    <h3>ciao</h3>
+    <div>
+      <Card title="titolo della card 1" />
       <Card title="titolo della card 2" imgSrc="https://avatars.githubusercontent.com/u/43304601?v=4" chisono="ciao, io sono michiburno"/>
       <Card title="titolo della card 3" imgSrc="https://avatars.githubusercontent.com/u/77500466?v=4" chisono="ciao, io sono giocle"/>
     </div>
