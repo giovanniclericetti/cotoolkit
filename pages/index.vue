@@ -23,14 +23,24 @@ per le community attraverso un toolkit e un framework di Co-design completamente
         title="Inizia a Co-creare"
         sottotitolo="Apri un nuovo progetto su Figma, segui gli 8 step del Co-Framework e crea un nuovo brand collaborando con la community."
 
-
       />
+
     </div>
 
+    <div>
+      <VideoSectionHome/>
+    </div>
 
+<SecondSectionHome
+
+    title= "Co-progetta un brand unico
+che rispecchi al meglio la comunità
+con cui stai collaborando."
+/>
 
 
   </div>
+
 </template>
 
 <script>

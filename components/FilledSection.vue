@@ -3,7 +3,7 @@
   <div class="container-fluid filled justify-content-center p-5">
 
 
-          <h2 class="firsttitle my-4 mt-5">
+          <h2 class=" my-4 mt-5">
             {{title}}
           </h2>
 
@@ -62,7 +62,7 @@ export default {
 }
 
 .subtitle{
-  max-width: 520px;
+  max-width: 640px;
 }
 
 

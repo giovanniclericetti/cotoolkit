@@ -7,13 +7,20 @@
 <style>
 
   .global-wrapper {
-    max-width: 1200px;
     margin: 0px;
-    background-color:red;
   }
 
   body{
     font-family: 'IBM Plex Sans';
+  }
+
+  h2{
+    font-weight: 900;
+    font-size: 55px;
+  }
+
+  p{
+    font-size: 20px;
   }
 
 </style>
