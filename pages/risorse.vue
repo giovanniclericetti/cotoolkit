@@ -7,17 +7,10 @@
     </div>
 
     <div>
-      <FirstSection
-        title="Un toolkit di Co-design per gestire il tuo progetto di community branding."
-        sottotitolo="Un Figma pack rivolto ai designer per supportare progetti di branding
-per le community attraverso un toolkit e un framework di Co-design completamente web-based."
-
-        imgSrc= "static/logo.svg"
-
-      />
+      <FirstSection/>
     </div>
 
-
+    <h3>ciao</h3>
     <div>
       <Card title="titolo della card 1" />
       <Card title="titolo della card 2" imgSrc="https://avatars.githubusercontent.com/u/43304601?v=4" chisono="ciao, io sono michiburno"/>

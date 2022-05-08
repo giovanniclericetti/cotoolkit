@@ -1,34 +1,43 @@
 <template>
 
-  <div class="red">
-    <h2> bella bro </h2>
-  </div>
+  <nav class="navbar fixed-top navbar-expand-md navbar-light bg-white shadow">
+    <div class="container-fluid">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <a class="navbar-brand px-5" href="#">
+        <img src="~static/logo.svg" alt=""  height="40px" class="d-inline-block align-text-top ">
+      </a>
+
+  <div class="d-flex">
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+        <ul class="d-flex navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item px-5">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item px-5">
+            <a class="nav-link" href="#">About</a>
+          </li>
+          <li class="nav-item px-5">
+            <a class="nav-link">Risorse</a>
+          </li>
+        </ul>
+      </div>
+      </div>
+    </div>
+  </nav>
 
 </template>
 
 <script>
-export default {
-  name: 'Card',
-  props: ['title', 'imgSrc', 'chisono'],
-  data() {
-    return {
-      showParagraph: true
-    }
-  },
-  methods: {
-    onClickButton() {
-      console.log("mi hai premuto");
-      this.showParagraph = false
-    }
-  }
-}
+
 </script>
 
-<style scoped>
+<style>
 
-.red{
-  background-color: orange;
-  padding: 20px;
+.shadow {
+  filter: drop-shadow(0px 0px 0px rgba(10, 10, 10, 0.01));
 }
 
 </style>
