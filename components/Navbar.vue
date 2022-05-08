@@ -7,7 +7,7 @@
       </button>
 
       <a class="navbar-brand px-5" href="#">
-        <img src="~static/logo.svg" alt=""  height="40px" class="d-inline-block align-text-top ">
+        <img src="~assets/svg/logo.svg" alt=""  height="40px" class="d-inline-block align-text-top ">
       </a>
 
   <div class="d-flex">

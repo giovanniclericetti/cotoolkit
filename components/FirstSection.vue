@@ -4,28 +4,27 @@
     <div class="row align-items-center p-5">
       <div class="col-md-7">
 
-          <h2 class="mb-4">
-            {{title}}
-          </h2>
+        <h2 class="firsttitle mb-4">
+          {{ title }}
+        </h2>
 
-          <p>
-            {{sottotitolo}}
-          </p>
+        <p>
+          <slot/>
+        </p>
 
       </div>
 
       <div class="col mt-5">
 
-        <img class="gifcover" src="~static/home_section.gif">
+        <img class="gifcover" src="~assets/images/home_section.gif">
 
       </div>
     </div>
 
     <div>
-      <img  src="~static/freccia.svg" class="mx-auto d-block">
+      <img src="~assets/svg/freccia.svg" class="mx-auto d-block">
     </div>
   </div>
-
 
 
 </template>
@@ -33,39 +32,33 @@
 <script>
 
 export default {
-  name: 'Card',
-  props: ['title', 'imgSrc', 'chisono', 'sottotitolo'],
-  data() {
-    return {
-      showParagraph: true
-    }
-  },
-  methods: {
-    onClickButton() {
-      console.log("mi hai premuto");
-      this.showParagraph = false
-    }
-  }
+  name: 'FirstSection',
+  props: ['title', 'imgSrc'],
 }
 
 </script>
 
 <style>
 
-.sectionone{
+.sectionone {
   height: 100vh;
   width: 100vw;
   background-color: white;
 }
 
-.gifcover{
+.firsttitle {
+  font-weight: 700;
+  font-size: 45px;
+}
+
+.gifcover {
   width: 100%;
 }
 
 
 @media (max-width: 768px) {
 
-  .sectionone{
+  .sectionone {
     height: auto;
 
   }
