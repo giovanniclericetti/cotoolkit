@@ -1,6 +1,7 @@
 <template>
   <button type="button" class="btn buttonfigma d-inline-flex m-5">
-    <img class="iconfigma ps-3 " src="~assets/svg/figmaicon.svg">
+
+    <img class="iconfigma ps-3 pt-1 " src="~assets/svg/figmaicon.svg">
 
     <p class="px-3">
       <slot></slot>
@@ -21,7 +22,7 @@ export default {
 .buttonfigma {
   background-color: white;
   border-radius: 15px;
-  height: 38px;
+  height: 42px;
 }
 
 .buttonfigma:hover {
@@ -31,7 +32,7 @@ export default {
 }
 
 .iconfigma {
-  height: 23px;
+  height: 25px;
 }
 
 

@@ -2,7 +2,7 @@
 
   <div class="container-fluid filled justify-content-center p-5">
 
-    <h2 class="firsttitle my-4 mt-5">
+    <h2 class="my-4 mt-5">
       {{ title }}
     </h2>
 
@@ -51,11 +51,6 @@ export default {
   background-color: #FCBB16;
   text-align: center;
   color: white;
-}
-
-.firsttitle {
-  font-weight: 700;
-  font-size: 45px;
 }
 
 .subtitle {

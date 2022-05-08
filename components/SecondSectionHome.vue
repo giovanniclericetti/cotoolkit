@@ -5,8 +5,11 @@
     <div class="row justify-content-center sectionconforme align-items-center">
 
       <h2 class="text-center co-progetta py-5 mt-5">
-        {{title}}
+        <slot/>
       </h2>
+
+
+
 
     </div>
 
@@ -19,7 +22,7 @@
 <script>
 
 export default {
-  name: 'Card',
+  name: 'SecondSectionHome',
   props: ['title'],
 
 }

@@ -4,7 +4,7 @@
     <div class="row align-items-center p-5">
       <div class="col-md-7">
 
-        <h2 class="firsttitle mb-4">
+        <h2 class="mb-4">
           {{ title }}
         </h2>
 
@@ -44,11 +44,6 @@ export default {
   height: 100vh;
   width: 100vw;
   background-color: white;
-}
-
-.firsttitle {
-  font-weight: 700;
-  font-size: 45px;
 }
 
 .gifcover {
