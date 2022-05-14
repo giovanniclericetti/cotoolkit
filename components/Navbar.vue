@@ -1,5 +1,6 @@
 <template>
 
+
   <nav class="navbar fixed-top navbar-expand-md navbar-light bg-white shadow">
     <div class="container-fluid">
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
@@ -17,7 +18,9 @@
             <a class="nav-link active" aria-current="page" href="#">Home</a>
           </li>
           <li class="nav-item px-5">
-            <a class="nav-link" href="#">About</a>
+            <NuxtLink class="nav-link" to="/about"
+            >About</NuxtLink
+            >
           </li>
           <li class="nav-item px-5">
             <a class="nav-link">Risorse</a>

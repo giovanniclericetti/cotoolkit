@@ -22,7 +22,7 @@
     </div>
 
     <div>
-      <img src="~assets/svg/freccia.svg" class="mx-auto d-block">
+    <ProvaSvg class="mx-auto d-block" />
     </div>
   </div>
 
@@ -31,8 +31,13 @@
 
 <script>
 
+import ProvaSvg from "~/assets/svg/freccia.svg?inline";
+
+import ScrollArrow from "~/assets/svg/provauno.svg?inline";
+
 export default {
   name: 'FirstSection',
+  components: {ScrollArrow, ProvaSvg},
   props: ['title', 'imgSrc'],
 }
 
@@ -42,14 +47,12 @@ export default {
 
 .sectionone {
   height: 100vh;
-  width: 100vw;
   background-color: white;
 }
 
 .gifcover {
   width: 100%;
 }
-
 
 @media (max-width: 768px) {
 

@@ -42,7 +42,7 @@ export default {
   background-position: center;
   background-image: url("~static/formegruppo.svg");
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
 
 }
 
