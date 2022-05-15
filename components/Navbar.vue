@@ -1,34 +1,41 @@
 <template>
 
-  <nav class="navbar fixed-top navbar-expand-md navbar-light bg-white shadow">
-    <div class="container-fluid">
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
+  <b-navbar toggleable="lg" type="dark"  class="navbar fixed-top navbar-expand-md navbar-light bg-white shadow">
+    <b-navbar-brand href="#">NavBar</b-navbar-brand>
 
-      <a class="navbar-brand px-5" href="#">
-        <img src="~assets/svg/logo.svg" alt=""  height="40px" class="d-inline-block align-text-top ">
-      </a>
+    <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
 
-  <div class="d-flex">
-      <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
-        <ul class="d-flex navbar-nav me-auto mb-2 mb-lg-0">
-          <li class="nav-item px-5">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
-          </li>
-          <li class="nav-item px-5">
-            <NuxtLink class="nav-link" to="/about"
-            >About</NuxtLink
-            >
-          </li>
-          <li class="nav-item px-5">
-            <a class="nav-link">Risorse</a>
-          </li>
-        </ul>
-      </div>
-      </div>
-    </div>
-  </nav>
+    <b-collapse id="nav-collapse" is-nav>
+      <b-navbar-nav>
+        <b-nav-item href="#">Link</b-nav-item>
+        <b-nav-item href="#" disabled>Disabled</b-nav-item>
+      </b-navbar-nav>
+
+      <!-- Right aligned nav items -->
+      <b-navbar-nav class="ml-auto">
+        <b-nav-form>
+          <b-form-input size="sm" class="mr-sm-2" placeholder="Search"></b-form-input>
+          <b-button size="sm" class="my-2 my-sm-0" type="submit">Search</b-button>
+        </b-nav-form>
+
+        <b-nav-item-dropdown text="Lang" right>
+          <b-dropdown-item href="#">EN</b-dropdown-item>
+          <b-dropdown-item href="#">ES</b-dropdown-item>
+          <b-dropdown-item href="#">RU</b-dropdown-item>
+          <b-dropdown-item href="#">FA</b-dropdown-item>
+        </b-nav-item-dropdown>
+
+        <b-nav-item-dropdown right>
+          <!-- Using 'button-content' slot -->
+          <template #button-content>
+            <em>User</em>
+          </template>
+          <b-dropdown-item href="#">Profile</b-dropdown-item>
+          <b-dropdown-item href="#">Sign Out</b-dropdown-item>
+        </b-nav-item-dropdown>
+      </b-navbar-nav>
+    </b-collapse>
+  </b-navbar>
 
 </template>
 
