@@ -16,12 +16,29 @@
 
   h2{
     font-family: 'IBM Plex Sans';
-    font-weight: 700;
-    font-size: 55px;
+    font-weight: 600;
+    font-size: 73px;
+  }
+
+  h3{
+    font-family: 'IBM Plex Sans';
+    font-weight: 600;
+    font-size: 32px;
+  }
+
+  h4{
+    font-family: 'IBM Plex Sans';
+    font-weight: 400;
+    font-size: 25px;
+    color: #7D7D7D;
   }
 
   p{
     font-size: 20px;
+  }
+
+  .subtitle{
+    color: #7D7D7D;
   }
 
   svg .show-on-hover {
