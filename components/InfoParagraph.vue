@@ -1,5 +1,5 @@
 <template>
-<div class="container mb-5 pb-2">
+<div class="container mb-5">
   <h3 class="mb-4">
     {{ title }}
   </h3>
