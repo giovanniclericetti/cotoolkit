@@ -10,13 +10,15 @@
 
 
 
-    <SectionOne>
+    <SectionOne imgSrc="https://cdn-products.eneba.com/resized-products/ybvx0zc8nxkqorpfjjsp_350x200_1x-0.jpg">
 
       <h2>
         Vi presentiamo il Community Branding <i>Co-design</i> Toolkit
       </h2>
 
       <h4 class="mt-5"> Un progetto nato per facilitare il processo di branding in un’epoca di forte digitalizzazione e partecipazione attiva alla vita della marca.</h4>
+
+
 
 
     </SectionOne>

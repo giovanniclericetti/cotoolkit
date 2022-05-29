@@ -5,7 +5,7 @@
 
       <div class="col-md-6">
 
-        <img class="gifcover" src="~assets/images/home_section.gif">
+        <img :src="imgSrc">
 
       </div>
 

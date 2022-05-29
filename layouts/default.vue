@@ -17,7 +17,7 @@
   h2{
     font-family: 'IBM Plex Sans';
     font-weight: 600;
-    font-size: 73px;
+    font-size: 65px;
   }
 
   h3{
