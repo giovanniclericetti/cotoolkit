@@ -2,9 +2,9 @@
 
 <div class="introrisorse m-5 pt-5">
 
-  <div class="row align-items-center">
+  <div class="row">
 
-    <div class="col-md-4 bg-primary">
+    <div class="col-md-3">
 
       <div>
 
@@ -29,13 +29,24 @@
         </div>
 
       </div>
-  blu
+
 
     </div>
 
-    <div class="col-md-8 bg-secondary">
+    <div class="col-md-9">
 
-      orange
+      <div class="container">
+        <h3 class="mb-4">
+          {{ title }}
+        </h3>
+
+        <p style="font-size: 22px">
+          <slot/>
+        </p>
+
+      </div>
+
+      <RisorseTab/>
 
     </div>
 
@@ -52,7 +63,7 @@
 <script>
 export default {
   name: "Risorse_Intro",
-  props: ['imgSrcIcon']
+  props: ['imgSrcIcon', 'PillsColor','title']
 }
 </script>
 
@@ -60,16 +71,17 @@ export default {
 
 .introrisorse{
   background-color: red;
-  height: 500px;
+
 }
 
 .iconrisorsa{
-  width: 50%;
+  width: 70%;
 }
 
 .pills{
   border-radius: 5px;
-  background-color: "";
+  background-color: #FCBB16;
+  border: none;
 }
 
 </style>

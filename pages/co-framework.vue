@@ -13,7 +13,10 @@
 
       <RisorseIntro
       imgSrcIcon="~assets/svg/about_figmapack.svg"
+      title="Co-Framework"
       >
+
+        Un design framework è una struttura reiterabile espressa in forma visiva che aiuta a organizzare le informazioni e le idee di un problema o la sequenza esecutiva di un progetto, in modo da poterci lavorare in modo più efficace.
 
       </RisorseIntro>
 

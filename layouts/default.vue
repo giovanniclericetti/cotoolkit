@@ -23,10 +23,16 @@
   h3{
     font-family: 'IBM Plex Sans';
     font-weight: 600;
-    font-size: 32px;
+    font-size: 40px;
   }
 
   h4{
+    font-family: 'IBM Plex Sans';
+    font-weight: 600;
+    font-size: 32px;
+  }
+
+  h5{
     font-family: 'IBM Plex Sans';
     font-weight: 400;
     font-size: 25px;
