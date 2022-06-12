@@ -123,7 +123,13 @@
       </InfoParagraph>
 
     </div>
+
+
+    <Footer/>
+
+
   </div>
+
 
 </template>
 
@@ -137,10 +143,6 @@ export default {
 
 <style>
 
-.figmapack{
-  position: relative;
-  width: 100%;
-}
 
 </style>
 

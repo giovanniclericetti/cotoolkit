@@ -1,40 +1,31 @@
 <template>
   <div class="">
 
-
     <div>
-    <Navbar/>
+      <Navbar/>
     </div>
 
     <div>
-      <FirstSection/>
-    </div>
+      <FirstSectionDx
+        sottotitolo="15 digital-tool completamente open source per aiutarti nel co-progettare l’intero processo di creazione di un nuovo brand"
+      >
 
-    <h3>ciao</h3>
-    <div>
-      <Card title="titolo della card 1" />
-      <Card title="titolo della card 2" imgSrc="https://avatars.githubusercontent.com/u/43304601?v=4" chisono="ciao, io sono michiburno"/>
-      <Card title="titolo della card 3" imgSrc="https://avatars.githubusercontent.com/u/77500466?v=4" chisono="ciao, io sono giocle"/>
+        Scopri gli strumenti <br>
+        per <i> co-creare </i> in modo <br>
+        semplice e guidato
+
+      </FirstSectionDx>
     </div>
+  </div>
+
+
   </div>
 </template>
 
 <script>
 export default {
-  name: 'IndexPage',
-  data() {
-    return {
-      cards: [
-      {
-        title: 'Card1'
-      },
-      {title: 'Card2'},
-      {title:'Card3'}
-      ]
-    };
-  }
+  name: 'Risorse'
 }
-
-//per renderlo variabile o DUE GRAFFE per testo o DUE PUNTI davanti attirbuto
-
 </script>
+
+

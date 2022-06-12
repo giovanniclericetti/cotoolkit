@@ -2,7 +2,7 @@
 
   <div class="container-fluid filled justify-content-center p-5">
 
-      <b-row class="row justify-content-center mt-5">
+      <b-row class="row justify-content-center mt-5 " align-v="center">
 
         <b-col md="auto">
           <a class="h2 whiteicon" href="/about">

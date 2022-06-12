@@ -7,6 +7,7 @@
 	<path style="fill:none;stroke:#FFFFFF;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;" d="M13,8V18 M13,18l-5-5
 		 M13,18l5-5"/>
 </g>
+
 <g class="show-on-hover">
 	<circle style="fill:#E6176F;" cx="13" cy="13" r="13"/>
 	<path style="fill:none;stroke:#FFFFFF;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;" d="M13,8V18 M13,18l-5-5

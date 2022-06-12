@@ -1,22 +1,22 @@
 <template>
 
-<div class="introrisorse m-5 pt-5">
+<div class="introrisorse m-5 pt-5 nomargin">
 
-  <div class="row my-5 pt-5">
+  <div class="row my-5 pt-5 nomargin">
 
     <div class="col-md-3">
 
       <div>
 
         <div class="iconrisorse">
-          <!--<img :src="imgSrcIcon">-->
+          <!--<img :srsc="imgSrcIcon">-->
           <img src="~assets/svg/co-framework.svg">
         </div>
 
         <div class="mt-4">
 
         <div>
-          <b-button class="pills py-0 m-1"> 8 STEP </b-button>
+          <b-button class="pills py-0 m-1" block> 8 STEP </b-button>
           <b-button class="pills py-0 m-1"> TRIPLE DIAMOND </b-button>
 
         </div>
@@ -128,6 +128,12 @@ export default {
   border: none;
 }
 
+.pills:hover{
+  background-color: #FCBB16;
+  cursor: default;
+}
+
+
 .tab_info{
   font-size: 18px;
   font-weight: bold;
@@ -136,6 +142,19 @@ export default {
 
 .iconrisorse{
   width: 80%;
+}
+
+@media (max-width: 768px) {
+
+  .iconrisorse{
+    display: none;
+  }
+
+  .introrisorse{
+
+  }
+
+
 }
 
 </style>

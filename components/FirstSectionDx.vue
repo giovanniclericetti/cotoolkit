@@ -1,24 +1,31 @@
 <template>
 
-  <div class="container-fluid sectionone mt-5 p-5">
-    <div class="row align-items-center p-5">
-      <div class="col-md-7">
+  <div class="container-fluid sectionone mt-5 px-5">
 
-        <h2 class="mb-4">
-          {{ title }}
+
+
+    <div class="row align-items-center px-5">
+      <div class="col">
+
+        <img class="gifcover" src="~assets/images/risorse.gif">
+
+      </div>
+
+      <div class="col-md-6 rightsubtitle">
+
+        <h2 class="mb-4 ">
+          <slot/>
         </h2>
 
-        <h5>
-          <slot/>
+
+
+        <h5 class="text-right">
+          {{ sottotitolo }}
         </h5>
 
       </div>
 
-      <div class="col mt-5">
 
-        <img class="gifcover" src="~assets/images/home_section.gif">
-
-      </div>
     </div>
 
     <div>
@@ -38,7 +45,7 @@ import ScrollArrow from "~/assets/svg/provauno.svg?inline";
 export default {
   name: 'FirstSection',
   components: {ScrollArrow, ProvaSvg},
-  props: ['title', 'imgSrc'],
+  props: ['sottotitolo', 'imgSrc'],
 }
 
 </script>
@@ -51,7 +58,12 @@ export default {
 }
 
 .gifcover {
-  width: 100%;
+  width: 90%;
+}
+
+.rightsubtitle{
+  text-align: right;
+  max-width: 720px;
 }
 
 @media (max-width: 768px) {

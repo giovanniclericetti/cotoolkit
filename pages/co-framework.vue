@@ -33,7 +33,7 @@
       </div>
 
 
-<div class="mt-5">
+<div class="my-5 pb-5">
     <InfoParagraph
       title="Che cos’è?" >
 
@@ -42,7 +42,7 @@
     </InfoParagraph>
 
     <InfoParagraph
-      title="Come si usa?" >
+      title="Come si usa?">
 
       Per “usare” un framework basta seguire le istruzioni che questo impone, seguendo passo passo le attività e le modalità proposte dal framework e lasciandosi guidare nei tempi e nei modi del progetto.
       Per comprendere lo scopo e gli step di un framework dovrebbe bastare la presa visione della sua rappresentazione schematica, mentre per comprenderne i meccanismi e poterlo applicare correttamente, tendenzialmente, servirà un approccio più immersivo di lettura o visualizzazione dei contenuti proposti.
@@ -50,13 +50,37 @@
     </InfoParagraph>
 </div>
 
+      <div class="mb-5 pb-5">
+        <b-row>
+
+          <b-col class="mb-5">
+            <RisorseBottomBox title="Usalo per">
+              informarti sul Co-design e sulle sue pratiche, imparando a progettare seguendo i criteri dei questo modello.
+            </RisorseBottomBox>
+          </b-col>
+
+          <b-col class="mb-5">
+          <RisorseBottomBox title="Ricordati di">
+            implementare nella pratica gli aspetti teorici contenuti all’interno dell’handbook, avendo sempre un approccio democratico.          </RisorseBottomBox>
+          </b-col>
+
+        </b-row>
+
+      </div>
+
 
 
     </div>
 
+
     <RisorseSotto/>
 
+    <Footer/>
+
   </div>
+
+
+
 </template>
 
 <script>

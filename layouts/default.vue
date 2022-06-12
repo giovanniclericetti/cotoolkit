@@ -47,6 +47,10 @@
     color: #7D7D7D;
   }
 
+  a{
+    text-decoration: none;
+  }
+
   svg .show-on-hover {
     opacity: 0;
   }
@@ -60,4 +64,29 @@
   transform: scale(1.03);
     transition: 0.3s ease-in-out;}
 
+
+  @media (max-width: 768px) {
+
+    h2{
+
+      font-size: 65px;
+    }
+
+    h3{
+
+      font-size: 35px;
+    }
+
+    h4{
+
+      font-size: 32px;
+    }
+
+    h5{
+
+      font-size: 25px;
+    }
+
+
+  }
 </style>
