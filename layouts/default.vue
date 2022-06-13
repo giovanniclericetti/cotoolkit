@@ -39,6 +39,10 @@
     color: #7D7D7D;
   }
 
+  h7{
+    font-size: 20px;
+  }
+
   p{
     font-size: 20px;
   }

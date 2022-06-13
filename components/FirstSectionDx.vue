@@ -1,23 +1,21 @@
 <template>
 
-  <div class="container-fluid sectionone mt-5 px-5">
+  <div class="container-fluid sectionone mt-5 px-5" >
 
 
 
-    <div class="row align-items-center px-5">
+    <div class="row align-items-center px-5 " align-v="center">
       <div class="col">
 
-        <img class="gifcover" src="~assets/images/risorse.gif">
+        <img class="gifcover" :src="require(`~/assets/images/${gifdx}.gif`)" />
 
       </div>
 
       <div class="col-md-6 rightsubtitle">
 
-        <h2 class="mb-4 ">
+        <h2 class="mb-4">
           <slot/>
         </h2>
-
-
 
         <h5 class="text-right">
           {{ sottotitolo }}
@@ -28,9 +26,16 @@
 
     </div>
 
+    <BoxHover>
+
+    </BoxHover>
+
+    <!--
     <div>
-    <ProvaSvg class="mx-auto d-block" />
+    <ProvaSvg1 class="mx-auto d-block" />
     </div>
+-->
+
   </div>
 
 
@@ -38,14 +43,14 @@
 
 <script>
 
-import ProvaSvg from "~/assets/svg/frecciahover.svg?inline";
+import ProvaSvg1 from "~/assets/svg/frecciahover.svg?inline";
 import GifInizio from "~/assets/svg/frecciahover.svg?inline";
 import ScrollArrow from "~/assets/svg/provauno.svg?inline";
 
 export default {
   name: 'FirstSection',
-  components: {ScrollArrow, ProvaSvg},
-  props: ['sottotitolo', 'imgSrc'],
+  components: {ScrollArrow, ProvaSvg1},
+  props: ['sottotitolo', 'imgSrc', 'gifdx'],
 }
 
 </script>
