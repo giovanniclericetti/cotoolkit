@@ -1,10 +1,5 @@
 <template>
 
-
-
-
-
-
   <div>
     <Navbar/>
 
@@ -50,16 +45,16 @@
     </InfoParagraph>
 </div>
 
-      <div class="mb-5 pb-5">
+      <div class="mb-md-5 mb-5 pb-md-5">
         <b-row>
 
-          <b-col class="mb-5">
+          <b-col lg=12 class="mb-md-5 mb-3">
             <RisorseBottomBox title="Usalo per">
               informarti sul Co-design e sulle sue pratiche, imparando a progettare seguendo i criteri dei questo modello.
             </RisorseBottomBox>
           </b-col>
 
-          <b-col class="mb-5">
+          <b-col class="mb-md-5 md-3">
           <RisorseBottomBox title="Ricordati di">
             implementare nella pratica gli aspetti teorici contenuti all’interno dell’handbook, avendo sempre un approccio democratico.          </RisorseBottomBox>
           </b-col>

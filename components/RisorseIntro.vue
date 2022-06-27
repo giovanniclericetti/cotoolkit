@@ -1,6 +1,6 @@
 <template>
 
-<div class="introrisorse m-5 pt-5 nomargin">
+<div class="introrisorse pt-5 nomargin">
 
   <div class="row my-5 pt-5 nomargin">
 

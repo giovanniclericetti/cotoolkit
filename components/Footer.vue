@@ -4,7 +4,8 @@
 
 
       <b-row class="justify-content-md-center row" align-v="center">
-        <b-col md="2" class="px-5 py-2 footerseparation" >
+
+        <b-col md="2" class="px-4 py-2 footerseparation" >
 
           <img src="~assets/svg/iconfooter.svg" alt=""  height="40px" class="d-inline-block align-text-top ">
 
@@ -55,13 +56,14 @@
 
         </b-col>
 
-        <b-col md="2" class="px-5 py-2 footerseparation2" style="text-align: left">
+        <b-col md="auto" class="p-5 py-0 footerseparation2  d-none d-lg-block" style="text-align: left">
+
           <div class="mx-5">
           <div>
             <b> Figma Pack </b>
           </div>
 
-          <div class="mt-1">
+          <div class="mt-1" >
 
             <button type="button" class="btn buttonfigmareduct d-inline-flex">
 
@@ -75,10 +77,6 @@
           </div>
         </b-col>
       </b-row>
-
-<div class="bg-primary p-5 m-5">
-  <Hover/>
-</div>
 
   </div>
 </template>
@@ -96,7 +94,7 @@ export default {
 <style scoped>
 
 .footer{
-  background-color: #272D31 ;
+  background-color: #272D31;
   color: white;
   text-align: center;
   width: 100vw;

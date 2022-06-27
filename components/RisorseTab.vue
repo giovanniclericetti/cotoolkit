@@ -31,10 +31,4 @@ export default {
 
 <style scoped>
 
-.risorsetab{
-  background-color: #FCBB16;
-  width: 100%;
-  height: 300px;
-}
-
 </style>

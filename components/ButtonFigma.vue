@@ -1,5 +1,5 @@
 <template>
-  <button type="button" class="btn buttonfigma d-inline-flex m-5">
+  <button type="button" class="btn buttonfigma d-inline-flex">
 
     <img class="iconfigma ps-3 pt-1 " src="~assets/svg/figmaicon.svg">
 

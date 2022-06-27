@@ -1,6 +1,6 @@
 <template>
 
-  <div class="container risorsetab box p-5">
+  <div class="container risorsebox box p-2 p-md-5">
 
     <h5 class="titlebox">
       {{ title }}
@@ -31,6 +31,23 @@ export default {
 
 .box{
   text-align: left;
+}
+
+.risorsebox{
+  background-color: #F9F9F9;
+  width: 90%;
+  border-radius: 20px;
+  text-align: left;
+  box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.12);
+}
+
+@media (max-width: 768px) {
+
+  .risorsebox{
+  background-color: white;
+  width: 100%;
+  text-align: left;
+  box-shadow: none;}
 }
 
 </style>

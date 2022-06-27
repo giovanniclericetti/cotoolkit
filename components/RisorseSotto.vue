@@ -1,11 +1,11 @@
 <template>
 
-  <div class="container-fluid filled justify-content-center p-5">
+  <div class="container-fluid filled justify-content-center px-5 py-5">
 
-      <b-row class="row justify-content-center mt-5 " align-v="center">
+      <b-row class="row justify-content-center py-2 py-md-5" align-v="center">
 
         <b-col md="auto">
-          <a class="h2 whiteicon" href="/about">
+          <a class="h2 whiteicon " href="/about">
           <b-icon icon="arrow-left-circle-fill"></b-icon>
         </a>
         </b-col>
@@ -18,9 +18,11 @@
       </p>
 
     <div>
+
       <ButtonFigma>
         Accedi al pack
       </ButtonFigma>
+
     </div>
 
 
@@ -51,7 +53,7 @@ export default {
 
 .filled {
   width: 100vw;
-  background-color: #FCBB16;
+  background-color: var(--color-primary);
   text-align: center;
   color: white;
 }

@@ -1,11 +1,8 @@
-
 <template>
   <b-navbar toggleable="lg" type="light" class="navbar fixed-top navbar-expand-md navbar-light bg-white shadow">
-    <b-navbar-brand href="#">
+    <b-navbar-brand class="navbar-brand px-5" href="#">
 
-      <a class="navbar-brand px-5" href="#">
-        <img src="~assets/svg/logo.svg" alt=""  height="40px" class="d-inline-block align-text-top ">
-      </a>
+      <img src="~assets/svg/logo.svg" alt="" height="40px" class="d-inline-block align-text-top ">
 
     </b-navbar-brand>
 
@@ -13,9 +10,9 @@
 
     <b-collapse id="nav-collapse" is-nav class="right ml-auto justify-content-end">
       <b-navbar-nav>
-        <b-nav-item href="#" class="px-4">Home</b-nav-item>
-        <b-nav-item href="/about" class="px-4">About</b-nav-item>
-        <b-nav-item href="#" class="px-4">Risorse</b-nav-item>
+        <b-nav-item to="/" class="px-4" exact active-class="active">Home</b-nav-item>
+        <b-nav-item to="/about/" class="px-4" exact active-class="active">About</b-nav-item>
+        <b-nav-item to="/risorse/" class="px-4" exact active-class="active">Risorse</b-nav-item>
 
       </b-navbar-nav>
     </b-collapse>

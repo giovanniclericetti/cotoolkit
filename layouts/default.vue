@@ -57,17 +57,33 @@
 
   svg .show-on-hover {
     opacity: 0;
+    transition: 0.3s ease-in-out;
+
+  }
+
+  svg:hover{
+    transform: scale(1.03);
   }
 
   svg:hover .show-on-hover {
     opacity: 1;
+  }
+
+  svg .show-on-hover {
     transition: 0.3s ease-in-out;
   }
 
-  svg:hover{
-  transform: scale(1.03);
-    transition: 0.3s ease-in-out;}
+  :root {
+    --color-primary: #FCBB16;
+  }
 
+  .theme-red {
+    --color-primary: #EE1000;
+  }
+
+  .text-primary {
+    color: var(--color-primary);
+  }
 
   @media (max-width: 768px) {
 
@@ -83,12 +99,16 @@
 
     h4{
 
-      font-size: 32px;
+      font-size: 20px;
     }
 
     h5{
 
       font-size: 25px;
+    }
+
+    p{
+      font-size:16px;
     }
 
 
