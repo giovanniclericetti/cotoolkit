@@ -1,30 +1,25 @@
 <template>
 
-  <div>
-      <h3 class="mb-4">
-        {{ title }}
-      </h3>
+  <div class="container" >
 
+    {{risorsa}}
 
-      <h7>
-        <slot/>
-      </h7>
 
   </div>
-
 
 </template>
 
 <script>
+
 export default {
   name: "BoxHover",
   components: {},
-  props: ['title'],
+  props: ['risorsa', 'svghover'],
 }
-
-
 </script>
 
 <style scoped>
+
+
 
 </style>

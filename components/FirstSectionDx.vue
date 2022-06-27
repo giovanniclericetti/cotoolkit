@@ -26,9 +26,6 @@
 
     </div>
 
-    <BoxHover>
-
-    </BoxHover>
 
     <!--
     <div>

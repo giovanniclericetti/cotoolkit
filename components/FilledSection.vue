@@ -54,7 +54,8 @@ export default {
 }
 
 .subtitle {
-  max-width: 520px;
+  max-width: 630px;
+  color: white;
 }
 
 

@@ -33,7 +33,7 @@ export default {
 
 
 .co-progetta{
-  max-width: 850px;
+  max-width: 1000px;
 }
 
 .sectionconforme{

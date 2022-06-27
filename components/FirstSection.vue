@@ -21,9 +21,7 @@
       </div>
     </div>
 
-    <div>
-    <ProvaSvg class="mx-auto d-block" />
-    </div>
+
   </div>
 
 
