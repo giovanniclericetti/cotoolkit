@@ -61,11 +61,11 @@
 
     </div>
 
-    <div class="container">
+
       <BoxHome>
 
       </BoxHome>
-    </div>
+
 
 
   </div>

@@ -1,21 +1,24 @@
 <template>
 
-  <div class="container-fluid sectionone mt-5 p-5">
+  <div class="container-fluid sectionone mt-5 px-5" align-v="bottom" >
+
     <div class="row align-items-center p-5">
+
+      <div class="col-md-6 col-6">
+
+        <img class="gifcover" :src="require(`~/assets/images/${gifabout}.gif`)" />
+
+      </div>
 
       <div class="col-md-6">
 
-        <img :src="imgSrc">
-
-      </div>
-
-      <div class="col-md-5">
-
-        <p>
+        <h2 class="mb-4" style="max-width:700px">
           <slot/>
-        </p>
+        </h2>
 
-      </div>
+        <h5 class="text-right">
+          {{ sottotitolo }}
+        </h5>
 
 
     </div>
@@ -23,6 +26,7 @@
     <div>
     <ProvaSvg class="mx-auto d-block" />
     </div>
+  </div>
   </div>
 
 
@@ -37,7 +41,7 @@ import ScrollArrow from "~/assets/svg/provauno.svg?inline";
 export default {
   name: 'FirstSection',
   components: {ScrollArrow, ProvaSvg},
-  props: ['title', 'imgSrc'],
+  props: ['title', 'imgSrc', 'gifabout', 'sottotitolo'],
 }
 
 </script>

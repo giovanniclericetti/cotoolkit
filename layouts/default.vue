@@ -89,7 +89,7 @@
 
     h2{
 
-      font-size: 65px;
+      font-size: 50px;
     }
 
     h3{

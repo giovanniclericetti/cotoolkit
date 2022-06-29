@@ -1,7 +1,14 @@
 <template>
 
   <b-row align-v="stretch">
-    <b-col cols="8">One of three columns</b-col>
+    <b-col cols="8">
+      <BoxHomeFramework/>
+    </b-col>
+
+    <b-col cols="4">
+      <BoxHomeCoDesign/>
+    </b-col>
+
     <b-col cols="4">One of three columns</b-col>
   </b-row>
 

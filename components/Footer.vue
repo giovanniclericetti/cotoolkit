@@ -129,5 +129,10 @@ a {
   height: 28px;
 }
 
+.buttonfigmareduct:hover {
+  background-color: #9747FF;
+  color: white;
+}
+
 
 </style>
