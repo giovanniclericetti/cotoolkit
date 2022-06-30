@@ -85,6 +85,20 @@
     color: var(--color-primary);
   }
 
+  .cardhome{
+    border: none;
+    border-radius: 20px;
+    background-color: #F9F9F9;
+    height: 100%;
+
+  }
+
+  .tools{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+
   @media (max-width: 768px) {
 
     h2{

@@ -17,9 +17,7 @@
         </a></b>
         per le community attraverso un toolkit e un framework di Co-design completamente web-based.
 
-        <b-tooltip target="tooltipbranding" triggers="hover" class="tooltiphome">
 
-        </b-tooltip>
 
         <b-popover target="tooltipbranding" triggers="hover" placement="top" style="tooltiphome">
           <span style="color: #F45A5D; font-size: 16px" > <b> Branding </b> </span>
@@ -37,9 +35,13 @@
 
     <div>
       <FilledSection
-        title="Inizia a Co-creare"
         sottotitolo="Apri un nuovo progetto su Figma, segui gli 8 step del Co-Framework e crea un nuovo brand collaborando con la community."
-      />
+      >
+
+      Inizia a <i> Co-creare </i>
+
+      </FilledSection>
+
     </div>
 
     <div>
@@ -62,11 +64,10 @@
     </div>
 
 
-      <BoxHome>
-
-      </BoxHome>
+      <BoxHome/>
 
 
+<Footer/>
 
   </div>
 
@@ -83,9 +84,13 @@
 
 </script>
 
+
+
 <style>
 
-
+#tooltipbranding:hover{
+  color: #F45A5D;
+}
 
 
 </style>

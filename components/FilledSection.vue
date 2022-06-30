@@ -3,7 +3,7 @@
   <div class="container-fluid filled justify-content-center p-5">
 
     <h2 class="my-4 mt-5">
-      {{ title }}
+      <slot/>
     </h2>
 
     <div class="row justify-content-center">
@@ -13,7 +13,7 @@
 
     </div>
 
-    <div>
+    <div class="my-md-5">
       <ButtonFigma>
         Accedi al pack
       </ButtonFigma>
@@ -29,17 +29,9 @@
 export default {
   name: 'FilledSection',
   props: ['title', 'imgSrc', 'chisono', 'sottotitolo'],
-  data() {
-    return {
-      showParagraph: true
-    }
-  },
-  methods: {
-    onClickButton() {
-      console.log("mi hai premuto");
-      this.showParagraph = false
-    }
-  }
+
+
+
 }
 
 </script>

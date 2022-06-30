@@ -16,7 +16,7 @@
 
       <div class="col mt-5">
 
-        <img class="gifcover" src="~assets/images/home_section.gif">
+        <img class="gifcover" src="~assets/images/homepage.gif">
 
       </div>
     </div>

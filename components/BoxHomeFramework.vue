@@ -1,10 +1,8 @@
 <template>
+   <b-card class="overflow-hidden cardhome">
+      <b-row align-v="center">
 
-  <div class="container m-2">
-    <b-card no-body class="overflow-hidden cardhome">
-      <b-row no-gutters align-v="center">
-
-        <b-col md="6" >
+        <b-col md="6">
           <b-card-body>
             <b-card-text >
               <h3 style="font-size: 50px">
@@ -22,7 +20,7 @@
 
       </b-row>
     </b-card>
-  </div>
+
 
 </template>
 
@@ -38,6 +36,7 @@ export default {
   border: none;
   border-radius: 20px;
   background-color: #F9F9F9;
+  height: 100%;
 }
 
 

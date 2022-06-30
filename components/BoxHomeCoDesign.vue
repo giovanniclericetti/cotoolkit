@@ -1,27 +1,22 @@
 <template>
-  <div class="container m-2">
-    <b-card no-body class="overflow-hidden cardhome">
-      <b-row no-gutters align-v="center">
 
-        <b-col md="6" >
+    <b-card class="overflow-hidden cardhome codesign" align-v="center" >
+
+      <b-row align-v="center" class="h-100" >
+<b-col>
           <b-card-body>
             <b-card-text >
               <h3 style="font-size: 50px">
-                Scopri il nostro <br>
-                Framework
+                Scopri <br> di più sul <br>
+                <i style="color:#FCBB16;
+"> Co-design </i>
               </h3>
-              Uno strumento inturitivo per co-creare in modo veloce e collaborativo seguendo 8 semplici step.
             </b-card-text>
           </b-card-body>
-        </b-col>
-
-        <b-col md="6">
-          <b-card-img src="~assets/svg/card1.svg"></b-card-img>
-        </b-col>
-
+</b-col>
       </b-row>
     </b-card>
-  </div>
+
 </template>
 
 <script>
@@ -33,11 +28,9 @@ export default {
 <style scoped>
 
 
-.cardhome{
-  border: none;
-  border-radius: 20px;
-  background-color: #F9F9F9;
-}
 
+.codesign{
+  background-image: url("~assets/svg/card2.svg");
+}
 
 </style>
