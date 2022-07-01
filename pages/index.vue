@@ -19,7 +19,7 @@
 
 
 
-        <b-popover target="tooltipbranding" triggers="hover" placement="top" style="tooltiphome">
+        <b-popover target="tooltipbranding" triggers="hover" placement="top" class="tooltiphome">
           <span style="color: #F45A5D; font-size: 16px" > <b> Branding </b> </span>
           ‹brä′ndiṅ› in italiano traducibile
           con “marca”, è l’insieme degli elementi visivi,
@@ -92,5 +92,8 @@
   color: #F45A5D;
 }
 
+.popover {
+  background-color: red;
+}
 
 </style>

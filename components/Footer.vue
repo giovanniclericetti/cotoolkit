@@ -3,80 +3,71 @@
   <div class="container-fluid footer justify-content-center p-5">
 
 
-      <b-row class="justify-content-md-center row" align-v="center">
+    <b-row class="justify-content-md-center row" align-v="center">
 
-        <b-col md="2" class="px-4 py-2 footerseparation" >
+      <b-col class="py-2 footerseparation col-md-auto col-6 mb-3 mb-md-0 px-md-5" >
 
-          <img src="~assets/svg/iconfooter.svg" alt=""  height="40px" class="d-inline-block align-text-top ">
+        <img src="~assets/svg/iconfooter.svg" alt=""  height="40px" class="d-inline-block align-text-top ">
 
+      </b-col>
 
-
-        </b-col>
-
-        <b-col md="auto">
-
-
-            <b-row class="justify-content-md-center px-5" >
-
-              <b-col md="auto">
-                <div class="footer_container px-5">
-                  <div>
-                    <b> Created by </b>
-                  </div>
-                  <a href="https://www.instagram.com/marcobort/">
-                    @marcobort
-                  </a>
-                </div>
-              </b-col>
-
-              <b-col md="auto">
-                <div class="footer_container px-5">
-                  <div>
-                    <b> Contact us </b>
-                  </div>
-                  <a href= "mailto:cotoolkit@gmail.com">
-                    cotoolkit@gmail.com
-                  </a>
-                </div>
-              </b-col>
-
-              <b-col md="auto">
-                <div class="footer_container px-5">
-                  <div>
-                    <b> Project </b>
-                  </div>
-                  <div>
-                    open source powered by Figma
-                  </div>
-                </div>
-              </b-col>
-
-            </b-row>
-
-
-        </b-col>
-
-        <b-col md="auto" class="p-5 py-0 footerseparation2  d-none d-lg-block" style="text-align: left">
-
-          <div class="mx-5">
+      <b-col class="col-6 col-md-auto mb-3 mb-md-0 px-md-5 ">
+        <div class="footer_container poweredby">
           <div>
-            <b> Figma Pack </b>
+            <b> Project </b>
           </div>
-
-          <div class="mt-1" >
-
-            <button type="button" class="btn buttonfigmareduct d-inline-flex">
-
-              <img class="iconfigmareduct"  src="~assets/svg/figmaicon.svg">
-
-              <p class="px-1" style="font-size: 10px">
-                Accedi al pack
-              </p>
-            </button>
+          <div>
+            open source powered by Figma
           </div>
+        </div>
+      </b-col>
+
+      <b-col class="col-6 col-md-auto" >
+        <div class="footer_container ">
+          <div>
+            <b> Contact us </b>
           </div>
-        </b-col>
-      </b-row>
+          <a href= "mailto:cotoolkit@gmail.com">
+            cotoolkit@gmail.com
+          </a>
+        </div>
+      </b-col>
+
+      <b-col class="col-6 col-md-auto px-md-5">
+        <div class="footer_container">
+          <div>
+            <b> Created by </b>
+          </div>
+          <a href="https://www.instagram.com/marcobort/">
+            @marcobort
+          </a>
+        </div>
+      </b-col>
+
+    </b-col>
+
+    <b-col class=" py-0 footerseparation2  d-none d-lg-block col-md-3 px-md-5" style="text-align: left">
+
+<div class="">
+        <div>
+          <b> Figma Pack </b>
+        </div>
+
+        <div class="mt-1" >
+
+          <button type="button" class="btn buttonfigmareduct d-inline-flex">
+
+            <img class="iconfigmareduct"  src="~assets/svg/figmaicon.svg">
+
+            <p class="px-1" style="font-size: 10px">
+              Accedi al pack
+            </p>
+          </button>
+        </div>
+</div>
+
+    </b-col>
+    </b-row>
 
   </div>
 </template>
@@ -134,5 +125,27 @@ a {
   color: white;
 }
 
+@media (max-width: 768px) {
+
+  .footer_container{
+
+    font-size: 12px;
+  }
+  .footerseparation{
+    border: none;
+    text-align: left;
+
+  }
+
+  .poweredby{
+    max-width: 100px;
+  }
+
+  .footerseparation2{
+    border: none;
+  }
+
+
+}
 
 </style>

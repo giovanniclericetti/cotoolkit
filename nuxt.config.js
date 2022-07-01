@@ -49,6 +49,12 @@ export default {
         ital: [400, 600]
       }
     }
+  },
+
+
+  bootstrapVue: {
+    // Install the `IconsPlugin` plugin (in addition to `BootstrapVue` plugin)
+    icons: true
   }
 
 }

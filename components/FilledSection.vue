@@ -1,5 +1,9 @@
 <template>
 
+  <!--
+    ORDINE CAMBIATO
+    <b-col order="2" order-lg="10">TERZO</b-col> -->
+
   <div class="container-fluid filled justify-content-center p-5">
 
     <h2 class="my-4 mt-5">

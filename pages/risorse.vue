@@ -35,7 +35,7 @@
       <b-container class="bv-example-row mb-5">
         <b-row cols="2" cols-sm="2" cols-md="2" cols-lg="4">
 
-          <b-col> <b-link href="/co-framework.vue/">
+          <b-col> <b-link to="/co-framework/">
             <div class="boxhover p-4 shadow">
               <coframework class="p-4"/>
               <BoxHover risorsa="Co-framework">

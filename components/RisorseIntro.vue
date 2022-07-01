@@ -1,104 +1,95 @@
 <template>
 
-<div class="introrisorse pt-5 nomargin">
+  <div class="introrisorse pt-5 container">
 
-  <div class="row my-5 pt-5 nomargin">
+    <b-row class=" my-5 pt-5 mx-md-5" >
 
-    <div class="col-md-3">
+      <b-col class="col-md-4 col-12">
 
-      <div>
+          <div class="iconrisorse">
+            <img :src="require(`~/assets/svg/${iconrisorsa}.svg`)">
+          </div>
 
-        <div class="iconrisorse">
-          <!--<img :srsc="imgSrcIcon">-->
-          <img src="~assets/svg/co-framework.svg">
-        </div>
+      </b-col>
 
-        <div class="mt-4">
+      <b-col class="col-md-8" >
 
         <div>
-          <b-button class="pills py-0 m-1" block> 8 STEP </b-button>
-          <b-button class="pills py-0 m-1"> TRIPLE DIAMOND </b-button>
+          <h3 class="mb-4">
+            {{ title }}
+          </h3>
 
+          <p class="mb-0 mb-md-4">
+            <slot/>
+          </p>
+
+        </div>
+
+      </b-col>
+
+      <b-col class="col-md-4 col-12 py-3 container my-3 my-md-0">
+
+        <div>
+          <b-button block class="pills py-0 m-1"> {{pill1}} </b-button>
+          <b-button class="pills py-0 m-1"> {{pill2}} </b-button>
         </div>
         <div>
-
-          <b-button class="pills py-0 m-1"> PROGETTO </b-button>
-          <b-button class="pills py-0 m-1"> GUIDA </b-button>
-
-        </div>
+          <b-button class="pills py-0 m-1"> {{pill3}} </b-button>
+          <b-button class="pills py-0 m-1"> {{pill4}} </b-button>
         </div>
 
-      </div>
+      </b-col>
 
+      <b-col class="">
 
-    </div>
+          <b-row class="risorsetab py-3  m-0 ">
 
-    <div class="col-md-9">
+            <b-col class="px-3 px-md-5 withborderdx py-md-0 py-2 col-6 boxcolorati" md="auto">
+              <div >
+                <b> Durata attività </b>
+              </div>
+              <div class="tab_info">
+                {{ durata }}
+              </div>
+            </b-col>
 
-      <div class="container">
-        <h3 class="mb-4">
-          {{ title }}
-        </h3>
+            <b-col class="px-md-3 px-4 px-md-5 py-md-0 py-2 boxcolorati col-6 " md="auto" order-md="2">
+              <div >
+                <b> Tipologia </b>
+              </div>
+              <div class="tab_info">
+                {{ tipologia }}
+              </div>
+            </b-col>
 
-        <p style="font-size: 22px">
-          <slot/>
-        </p>
+            <b-col class="px-3 px-md-5 withborderdx py-md-0 py-2 mt-3 mt-md-0 boxcolorati col-7" md="auto">
+              <div  >
+                <b> Numero partecipanti </b>
+              </div>
+              <div class="tab_info">
+                {{ partecipanti }}
+              </div>
+            </b-col>
 
-      </div>
-
-      <b-container>
-        <b-row class="risorsetab py-3 mt-5">
-
-          <b-col md="auto" style="border-right: solid 2px #E4E3E3" class="px-5">
-
-            <div style="font-size: 20px" >
-              <b> Durata attività </b>
-            </div>
-            <div class="tab_info">
-              {{ durata }}
-            </div>
-
-          </b-col>
-
-          <b-col md="auto" style="border-right: solid 2px #E4E3E3;" class="px-5">
-
-
-
-            <div style="font-size: 20px" >
-              <b> Numero partecipanti </b>
-            </div>
-            <div class="tab_info">
-              {{ partecipanti }}
-            </div>
+            <b-col class="px-md-5 py-md-0 py-2 px-4 mt-3 boxcolorati col-3 d-block d-lg-none" md="auto" >
+              <img class="iconresponsive" :src="require(`~/assets/svg/${iconrisorsa}.svg`)">
+            </b-col>
 
 
 
-          </b-col>
+          </b-row>
 
-          <b-col md="auto" class="px-5" >
-
-            <div style="font-size: 20px">
-              <b> Tipologia </b>
-            </div>
-            <div class="tab_info">
-              {{ tipologia }}
-            </div>
-
-          </b-col>
-
-        </b-row>
-
-      </b-container>
+        </b-container>
 
 
 
-    </div>
+      </b-col>
+
+    </b-row>
+
+
 
   </div>
-
-
-
-</div>
 
 
 </template>
@@ -106,7 +97,7 @@
 <script>
 export default {
   name: "Risorse_Intro",
-  props: ['imgSrcIcon', 'PillsColor','title', 'durata', 'partecipanti', 'tipologia']
+  props: ['imgSrcIcon', 'iconrisorsa', 'PillsColor','title', 'durata', 'partecipanti', 'tipologia', 'pill1', 'pill2', 'pill3', 'pill4']
 }
 </script>
 
@@ -116,7 +107,6 @@ export default {
 
 .risorsetab{
   background-color: #F9F9F9;
-  width: 90%;
   border-radius: 20px;
   text-align: left;
   box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.12);
@@ -141,7 +131,19 @@ export default {
 }
 
 .iconrisorse{
-  width: 80%;
+  width: 60%;
+}
+
+.withborderdx{
+  border-right: solid 2px #E4E3E3
+}
+
+.boxcolorati{
+  font-size: 20px
+}
+
+.iconresponsive{
+  height: 100%;
 }
 
 @media (max-width: 768px) {
@@ -149,12 +151,16 @@ export default {
   .iconrisorse{
     display: none;
   }
-
-  .introrisorse{
-
+  .boxcolorati{
+    font-size: 18px
   }
 
+  p{
+    font-size: 20px;
+  }
+  .withborderdx{
 
+  }
 }
 
 </style>

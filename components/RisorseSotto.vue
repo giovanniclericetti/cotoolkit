@@ -4,13 +4,13 @@
 
       <b-row class="row justify-content-center py-2 py-md-5" align-v="center">
 
-        <b-col md="auto">
-          <a class="h2 whiteicon " href="/about">
+        <b-col class="col-1">
+          <b-link class="h2 whiteicon " to="/about/">
           <b-icon icon="arrow-left-circle-fill"></b-icon>
-        </a>
+        </b-link>
         </b-col>
 
-        <b-col>
+        <b-col class="col-10">
 
       <p style="color: white">
         Accedi al Figma pack <br>
@@ -29,7 +29,7 @@
 
     </b-col>
 
-        <b-col md="auto">
+        <b-col class="col-1">
           <a class="whiteicon h2" href="/about">
             <b-icon icon="arrow-right-circle-fill"></b-icon>
           </a>
@@ -66,5 +66,11 @@ export default {
   color: white;
 }
 
+@media (max-width: 768px) {
+
+  p{
+    font-size: 16px;
+  }
+}
 
 </style>
