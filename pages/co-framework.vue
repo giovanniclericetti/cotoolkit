@@ -48,7 +48,7 @@
       <div class="mb-md-5 mb-5 pb-md-5">
         <b-row>
 
-          <b-col lg=12 class="mb-md-5 mb-3">
+          <b-col class="mb-md-5 mb-3">
             <RisorseBottomBox title="Usalo per">
               informarti sul Co-design e sulle sue pratiche, imparando a progettare seguendo i criteri dei questo modello.
             </RisorseBottomBox>

@@ -57,6 +57,7 @@
 
   a{
     text-decoration: none;
+    color: black;
   }
 
   svg .show-on-hover {
