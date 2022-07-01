@@ -5,7 +5,7 @@
 
 
 
-  <div>
+  <div >
     <Navbar/>
 
 
@@ -24,7 +24,7 @@
 
     </SectionOne>
 
-    <div class="container">
+    <div class="container pb-5">
 
     <InfoParagraph
       title="Cos’è CBCT in breve?" >

@@ -1,6 +1,6 @@
 <template>
 
-  <div class="container mb-5">
+  <div class="container my-5 pt-5">
 
     <h4 class="mb-4">
       {{ title }}

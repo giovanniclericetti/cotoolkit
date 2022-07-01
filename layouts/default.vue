@@ -51,6 +51,10 @@
     color: #7D7D7D;
   }
 
+  .shadow {
+    filter: drop-shadow(0px 0px 0px rgba(10, 10, 10, 0.01));
+  }
+
   a{
     text-decoration: none;
   }
@@ -69,10 +73,6 @@
     opacity: 1;
   }
 
-  svg .show-on-hover {
-    transition: 0.3s ease-in-out;
-  }
-
   :root {
     --color-primary: #FCBB16;
   }
@@ -80,6 +80,20 @@
   .theme-red {
     --color-primary: #EE1000;
   }
+
+  .theme-yellow {
+    --color-primary: #FCBB16;
+  }
+
+  .theme-green{
+    --color-primary: #24B265;
+  }
+
+  .theme-purple{
+    --color-primary: #9747FF;
+  }
+
+
 
   .text-primary {
     color: var(--color-primary);

@@ -40,9 +40,9 @@ export default {
 
 .filled {
   width: 100vw;
-  background-color: #FCBB16;
   text-align: center;
   color: white;
+background-color: var(--color-primary);
 }
 
 .subtitle {

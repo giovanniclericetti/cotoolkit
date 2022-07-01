@@ -28,8 +28,6 @@
 
 <style>
 
-.shadow {
-  filter: drop-shadow(0px 0px 0px rgba(10, 10, 10, 0.01));
-}
+
 
 </style>
