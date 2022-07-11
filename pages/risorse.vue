@@ -32,33 +32,37 @@
 
       </RisorseSection>
 
-      <b-container class="bv-example-row mb-5">
+      <b-container class="mb-5">
         <b-row cols="2" cols-sm="2" cols-md="2" cols-lg="4">
 
-          <b-col> <b-link to="/co-framework/">
-            <div class="boxhover p-4 shadow">
-              <coframework class="p-4"/>
-              <BoxHover risorsa="Co-framework">
+          <b-col> <b-link to="/co-framework/" class="linkhover">
+            <div class="boxhover p-3 shadow">
+              <coframework class="p-2" style="max-height: 160px"/>
+              <BoxHover risorsa="Co-Framework">
               </BoxHover>
             </div> </b-link>
           </b-col>
 
-          <b-col>
-            <div class="boxhover p-4 shadow">
-              <handbook class="p-4"/>
-              <BoxHover risorsa="Co-framework">
+          <b-col> <b-link to="/co-framework/" class="linkhover">
+            <div class="boxhover p-3 shadow">
+              <handbook class="p-2" style="max-height: 160px"/>
+              <BoxHover risorsa="Co-design Handbook">
               </BoxHover>
-            </div>
+            </div> </b-link>
           </b-col>
 
 
-          <b-col>
-            <div class="boxhover p-4 shadow">
-              <tavola class="p-4"/>
-              <BoxHover risorsa="tavola">
+          <b-col> <b-link to="/co-framework/" class="linkhover">
+            <div class="boxhover p-3 shadow">
+              <tavola class="p-2" style="max-height: 160px"/>
+              <BoxHover risorsa="Tavola di Progetto">
               </BoxHover>
-            </div>
+            </div> </b-link>
           </b-col>
+
+
+
+
 
 
 
@@ -158,27 +162,26 @@ export default {
   props: [],
 }
 
-import coframework from "~/assets/svg/provauno.svg?inline";
-import tavola from "~/assets/svg/ultima-01.svg?inline";
-import handbook from "~/assets/svg/book.svg?inline";
+import coframework from "~/assets/svg/r-coframework.svg?inline";
+import handbook from "~/assets/svg/r-book.svg?inline";
+import tavola from "~/assets/svg/r-tavoladiprogetto.svg?inline";
+
 
 </script>
 
 <style>
 
 .boxhover{
-  max-width: 240px;
-  max-height: 240px;
+  max-width: 250px;
+  max-height: 250px;
   background-color: #F9F9F9;
   border-radius: 30px;
   font-size: 18px;
   text-align: center;
 }
 
-svg .show-on-hover {
-  opacity: 0;
-  transition: 0.3s ease-in-out;
-
+.linkhover:hover{
+  color: black;
 }
 
 </style>

@@ -1,6 +1,6 @@
 <template>
 
-  <div class="container mb-2" >
+  <div class="container mb-2 mt-3 testohoveratolink" >
 
     {{risorsa}}
 
@@ -19,7 +19,6 @@ export default {
 </script>
 
 <style scoped>
-
 
 
 </style>

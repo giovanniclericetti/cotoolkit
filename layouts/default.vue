@@ -62,9 +62,12 @@
 
   svg .show-on-hover {
     opacity: 0;
-    transition: 0.3s ease-in-out;
-
   }
+
+  svg {
+    transition: 0.3s ease-in-out;
+  }
+
 
   svg:hover{
     transform: scale(1.03);
@@ -72,6 +75,11 @@
 
   svg:hover .show-on-hover {
     opacity: 1;
+  }
+
+  b-link {
+    color: black;
+    text-decoration: none;
   }
 
   :root {
