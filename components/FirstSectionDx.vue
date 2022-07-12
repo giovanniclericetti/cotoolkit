@@ -21,9 +21,9 @@
 
       </div>
 
-      <div>
+      <div >
         <b-dropdown id="dropdown-1"
-                    class="m-md-2 drophome shadow p-1"
+                    class="m-md-2 drophome shadow p-1 mx-md-5"
                     style="border-radius: 10px; font-size: 22px; font-weight: 700;"
                     split-variant="outline-primary"
                     variant="white"

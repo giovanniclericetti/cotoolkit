@@ -8,7 +8,7 @@
 
     <b-navbar-toggle class="ml-auto" target="nav-collapse"></b-navbar-toggle>
 
-    <b-collapse id="nav-collapse" is-nav class="right ml-auto justify-content-end">
+    <b-collapse id="nav-collapse" is-nav class="right ml-auto justify-content-end my">
       <b-navbar-nav>
         <b-nav-item to="/" class="px-4" exact active-class="active">Home</b-nav-item>
         <b-nav-item to="/about/" class="px-4" exact active-class="active">About</b-nav-item>
