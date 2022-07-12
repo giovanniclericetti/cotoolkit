@@ -31,7 +31,7 @@
 
         <b-col class="col-1">
           <a class="whiteicon h2" href="/about">
-            <b-icon icon="arrow-right-circle-fill"></b-icon>
+            <b-icon icon="arrow-right-circle-fill" ></b-icon>
           </a>
         </b-col>
 

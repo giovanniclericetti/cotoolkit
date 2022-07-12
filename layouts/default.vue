@@ -8,6 +8,7 @@
 
   .global-wrapper {
     margin: 0px;
+    overflow: hidden;
   }
 
   body{
@@ -87,7 +88,7 @@
   }
 
   .theme-red {
-    --color-primary: #EE1000;
+    --color-primary: #F45A5D;
   }
 
   .theme-yellow {
@@ -127,7 +128,35 @@
     background-size: cover;
   }
 
+  .desktop{
+    display: block;
+  }
+
+  .mobile{
+    display: none;
+  }
+
+  .iconhover:hover{
+    text-decoration: none;
+    color: black;
+
+  }
+
+
+
+
+
   @media (max-width: 768px) {
+
+    .desktop{
+      display: none;
+    }
+
+    .mobile{
+      display: block;
+    }
+
+
 
     h2{
 

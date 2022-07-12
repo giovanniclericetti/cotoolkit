@@ -1,11 +1,7 @@
 <template>
 
 
-
-
-
-
-  <div >
+  <div>
     <Navbar/>
 
 
@@ -16,7 +12,7 @@
       sottotitolo="Un progetto nato per facilitare il processo di branding in un’epoca di forte digitalizzazione e partecipazione attiva alla vita della marca.">
 
 
-        Ecco il Community Branding <i>Co-design</i> Toolkit
+      <span class="desktop"> Vi presentiamo </span> <span class="mobile"> Ecco </span> il Community Branding <i>Co-design</i> Toolkit
 
 
 
@@ -25,10 +21,12 @@
 
     </SectionOne>
 
-    <div class="container pb-5">
+    <div class="container pb-5" >
 
     <InfoParagraph
-      title="Cos’è CBCT in breve?" >
+      class="mt-5"
+      title="Cos’è CBCT in breve?"
+      id="inizioabout">
 
       Il community Branding Co-design Toolkit nasce dall’esigenza di fornire uno <u> strumento di aiuto concreto
       ed estremamente pratico per i designer </u> che si trovano ad affrontare un processo articolato e complesso
@@ -147,25 +145,12 @@ export default {
 
 <style>
 
-.desktop{
-  display: block;
-}
-
-.mobile{
-  display: none;
-}
-
 @media (max-width: 768px) {
 
-  .desktop{
-    display: none;
-  }
+h4 {
+font-size: 22px;
 
-  .mobile{
-    display: block;
-  }
-
-  }
+  }}
 
 </style>
 

@@ -12,20 +12,16 @@
 
       <RisorseIntro
       imgSrcIcon="~assets/svg/about_figmapack.svg"
-      title="Co-Framework"
-      durata="l'intero progetto"
-      partecipanti="1 persona"
+      title="Co-design Handbook"
+      durata="10 minuti"
+      partecipanti="1/100+ persone"
       tipologia="per il designer"
-      pill1="PRIMO"
-      pill2="SECONDO"
-      pill3="TERZO"
-      pill4="QUARTO"
-      iconrisorsa="r-coframework"
+      pill1="DOWNLOAD"
+
+      iconrisorsa="r-book"
 
       >
-
-        Un design framework è una struttura reiterabile espressa in forma visiva che aiuta a organizzare le informazioni e le idee di un problema o la sequenza esecutiva di un progetto, in modo da poterci lavorare in modo più efficace.
-
+        Un breve manuale contenente informazioni e consigli sul Co-design e su come condurre un progetto usando questo modello. Un handbook digitale pratico ed estremamente utile se si sa poco della co-progettazione.
       </RisorseIntro>
 
 
@@ -35,7 +31,7 @@
 
   <b-col class="col-12 row m-mb-5" order="3" order-md="1">
 
-    <img style="width:100%" src="~assets/images/co-framework-screen.png" >
+    <img style="width:100%" src="~assets/images/handbook.png" >
 
   </b-col>
 
@@ -44,16 +40,13 @@
     <InfoParagraph
       title="Che cos’è?" >
 
-      Un framework è spesso composto da un elenco pertinente di categorie sequenziate secondo uno specifico ordine con lo scopo di aiutare il progettista a strutturare attività in modo guidato e pre-progettato, per ottimizzare al meglio le risorse e facilitare la meta-progettazione. Spesso per facilitarne la comprensione si realizzano grafici sintetici che riassumano il framework in step. Affinchè un framework sia funzionale, inoltre, deve poter essere reiterabile, dunque adattabile a più di un progetto nel medesimo ambito.
+      Una serie di slide contenenti consigli pratici e informazioni teoriche sul metodo progettuale di design thinking denominato Co-design. Un modello che fonda il suo essere nella collaborazione creativa tra designer e non designer, tra persone con competenze, necessità e sensibilità differenti, ma accomunati da un qualche legame con l’oggetto del progetto, in questo caso la marca. Il co-design prevede una collaborazione creativa volta al problem solving che scaturisce da questa diversità di punti di vista.
 
     </InfoParagraph>
 
     <InfoParagraph
       title="Come si usa?">
-
-      Per “usare” un framework basta seguire le istruzioni che questo impone, seguendo passo passo le attività e le modalità proposte dal framework e lasciandosi guidare nei tempi e nei modi del progetto.
-      Per comprendere lo scopo e gli step di un framework dovrebbe bastare la presa visione della sua rappresentazione schematica, mentre per comprenderne i meccanismi e poterlo applicare correttamente, tendenzialmente, servirà un approccio più immersivo di lettura o visualizzazione dei contenuti proposti.
-
+      Scarica il file .pdf dal bottone qui sopra. Usa le informazioni contenute al suo interno per prendere decisioni, impostare attività e relazionarti con gli stakeholder nel modo più funzionale e democratico possibile al fine di ottenere un progetto unilaterlamente co-progettato con il supporto della community.
     </InfoParagraph>
 
 </b-col>
@@ -75,8 +68,8 @@
 
           <b-col class="mb-md-5 md-3 col-12 col-md-6">
           <RisorseBottomBox title="Ricordati di">
-            implementare nella pratica gli aspetti teorici contenuti all’interno dell’handbook, avendo sempre un approccio democratico.          </RisorseBottomBox>
-          </b-col>
+            implementare nella pratica gli aspetti teorici contenuti all’interno dell’handbook, avendo sempre un approccio democratico.
+          </RisorseBottomBox> </b-col>
 
         </b-row>
 
@@ -92,7 +85,7 @@
       <b-row class="row justify-content-center py-2 py-md-5" align-v="center">
 
         <b-col class="col-1">
-          <b-link class="h2 whiteicon " to="/crazy8/">
+          <b-link class="h2 whiteicon " to="/co-framework/">
             <b-icon icon="arrow-left-circle-fill"></b-icon>
           </b-link>
         </b-col>
@@ -117,7 +110,7 @@
         </b-col>
 
         <b-col class="col-1">
-          <b-link class="whiteicon h2" to="/handbook/">
+          <b-link class="whiteicon h2" to="/tavoladiprogetto/">
             <b-icon icon="arrow-right-circle-fill" ></b-icon>
           </b-link>
         </b-col>

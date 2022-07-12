@@ -25,7 +25,7 @@ export default {
 <style scoped>
 
 .titlebox{
-  color: #FCBB16;
+  color: var(--color-primary);
   font-weight: bold;
 }
 
@@ -38,6 +38,7 @@ export default {
   width: 90%;
   border-radius: 20px;
   text-align: left;
+  min-height: 240px;
   box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.12);
 }
 
@@ -46,6 +47,7 @@ export default {
   .risorsebox{
   background-color: white;
   width: 100%;
+    min-height: 50px;
   text-align: left;
   box-shadow: none;}
 }

@@ -34,21 +34,22 @@
 
       </RisorseSection>
     <div class="container">
-      <b-container class="mb-md-5">
-        <b-row cols="2" cols-sm="2" cols-md="2" cols-lg="4">
+      <b-container class="mb-md-5 container" >
+        <b-row cols="2" cols-sm="2" cols-md="2" cols-lg="4" class="g-3">
 
-          <b-col> <b-link to="/co-framework/" class="linkhover">
-            <div class="boxhover p-3 shadow mb-md-5 mb-5">
-              <coframework class="p-2 iconcine"
+          <b-col class=" p-1"> <b-link to="/co-framework/" class="linkhover">
+            <div class="boxhover p-3 shadow mb-md-5 ">
+              <coframeworkicon class="p-2 iconcine"
 
               />
               <BoxHover risorsa="Co-Framework">
               </BoxHover>
-            </div> </b-link>
+            </div>
+          </b-link>
           </b-col>
 
-          <b-col> <b-link to="/co-framework/" class="linkhover">
-            <div class="boxhover p-3 shadow mb-md-5 mb-5">
+          <b-col class=" p-1"> <b-link to="/handbook/" class="linkhover">
+            <div class="boxhover p-3 shadow mb-md-5 ">
               <handbook class="p-2 iconcine"/>
               <BoxHover risorsa="Co-design Handbook">
               </BoxHover>
@@ -56,8 +57,8 @@
           </b-col>
 
 
-          <b-col> <b-link to="/co-framework/" class="linkhover">
-            <div class="boxhover p-3 shadow mb-md-5 mb-5">
+          <b-col class=" p-1"> <b-link to="/tavola/" class="linkhover">
+            <div class="boxhover p-3 shadow mb-md-5">
               <tavola class="p-2 iconcine" />
               <BoxHover risorsa="Tavola di Progetto">
               </BoxHover>
@@ -89,18 +90,18 @@
       </RisorseSection>
       <div class="container">
       <b-container class="mb-md-5">
-        <b-row cols="2" cols-sm="2" cols-md="2" cols-lg="4">
+        <b-row cols="2" cols-sm="2" cols-md="2" cols-lg="4" class="g-3">
 
-          <b-col> <b-link to="/co-framework/" class="linkhover">
-            <div class="boxhover p-3 shadow mb-md-5 mb-5">
+          <b-col> <b-link to="/questionario/" class="linkhover">
+            <div class="boxhover p-3 shadow mb-md-5 5">
               <questionario class="p-2 iconcine"/>
               <BoxHover risorsa="Questionario">
               </BoxHover>
             </div> </b-link>
           </b-col>
 
-          <b-col> <b-link to="/co-framework/" class="linkhover">
-            <div class="boxhover p-3 shadow mb-md-5 mb-5">
+          <b-col> <b-link to="/modulidinvito/" class="linkhover">
+            <div class="boxhover p-3 shadow mb-md-5 ">
               <moduli class="p-2 iconcine" />
               <BoxHover risorsa="Moduli d'invito">
               </BoxHover>
@@ -108,7 +109,7 @@
           </b-col>
 
 
-          <b-col> <b-link to="/co-framework/" class="linkhover">
+          <b-col> <b-link to="/stakeholderanalysis/" class="linkhover">
             <div class="boxhover p-3 shadow mb-md-5 mb-5">
               <stakeholder class="p-2 iconcine" />
               <BoxHover risorsa="Stakeholder Analysis">
@@ -136,41 +137,41 @@
       </RisorseSection>
     <div class="container">
       <b-container class="mb-md-5">
-        <b-row cols="2" cols-sm="2" cols-md="2" cols-lg="4">
+        <b-row cols="2" cols-sm="2" cols-md="2" cols-lg="4" class="g-3">
 
-          <b-col> <b-link to="/co-framework/" class="linkhover">
-            <div class="boxhover py-3 shadow mb-md-5 mb-5">
+          <b-col> <b-link to="/ritrattocinese/" class="linkhover">
+            <div class="boxhover py-3 shadow mb-md-5 ">
               <ritratto class="p-2 iconcine" />
               <BoxHover risorsa="Ritratto Cinese">
               </BoxHover>
             </div> </b-link>
           </b-col>
 
-          <b-col> <b-link to="/co-framework/" class="linkhover">
-            <div class="boxhover py-3 shadow mb-md-5 mb-5">
+          <b-col> <b-link to="/tagcloud/" class="linkhover">
+            <div class="boxhover py-3 shadow mb-md-5">
               <tag class="p-2 iconcine" />
               <BoxHover risorsa="Tag Cloud">
               </BoxHover>
             </div> </b-link>
           </b-col>
 
-          <b-col> <b-link to="/co-framework/" class="linkhover">
-            <div class="boxhover py-3 shadow mb-md-5 mb-5">
+          <b-col> <b-link to="/mindmap/" class="linkhover">
+            <div class="boxhover py-3 shadow mb-md-5 ">
               <mindmap class="p-2 iconcine" />
               <BoxHover risorsa="Mindmap">
               </BoxHover>
             </div> </b-link>
           </b-col>
 
-          <b-col> <b-link to="/co-framework/" class="linkhover">
-            <div class="boxhover p-3 shadow mb-md-5 mb-5">
+          <b-col> <b-link to="/moodboard/" class="linkhover">
+            <div class="boxhover p-3 shadow mb-md-5">
               <mood class="p-2 iconcine" />
               <BoxHover risorsa="Moodboard">
               </BoxHover>
             </div> </b-link>
           </b-col>
 
-          <b-col> <b-link to="/co-framework/" class="linkhover">
+          <b-col> <b-link to="/onlynessstatement/" class="linkhover">
             <div class="boxhover p-3 shadow mt-md-4 mb-md-5 mb-5">
               <only class="p-2 iconcine" />
               <BoxHover risorsa="Onlyness Statement">
@@ -202,18 +203,18 @@
 
       <div class="container">
       <b-container class="mb-md-5">
-        <b-row cols="2" cols-sm="2" cols-md="2" cols-lg="4">
+        <b-row cols="2" cols-sm="2" cols-md="2" cols-lg="4" class="g-3">
 
-          <b-col> <b-link to="/co-framework/" class="linkhover">
-            <div class="boxhover p-3 shadow mb-md-5 mb-5">
+          <b-col> <b-link to="/definizionevalori/" class="linkhover">
+            <div class="boxhover p-3 shadow mb-md-5 ">
               <valori class="p-2 iconcine" />
               <BoxHover risorsa="Definizione Valori">
               </BoxHover>
             </div> </b-link>
           </b-col>
 
-          <b-col> <b-link to="/co-framework/" class="linkhover">
-            <div class="boxhover p-3 shadow mb-md-5 mb-5">
+          <b-col> <b-link to="/roleplaying/" class="linkhover">
+            <div class="boxhover p-3 shadow mb-md-5 ">
               <role class="p-2 iconcine" />
               <BoxHover risorsa="Role Playing">
               </BoxHover>
@@ -221,15 +222,15 @@
           </b-col>
 
 
-          <b-col> <b-link to="/co-framework/" class="linkhover">
-            <div class="boxhover p-3 shadow mb-md-5 mb-5">
+          <b-col> <b-link to="/howmightwe/" class="linkhover">
+            <div class="boxhover p-3 shadow mb-md-5 s">
               <how class="p-2 iconcine" />
               <BoxHover risorsa="How Might We">
               </BoxHover>
             </div> </b-link>
           </b-col>
 
-          <b-col> <b-link to="/co-framework/" class="linkhover">
+          <b-col> <b-link to="/crazy8/" class="linkhover">
             <div class="boxhover p-3 shadow mb-5">
               <crazy class="p-2 iconcine" />
               <BoxHover risorsa="Crazy 8">
@@ -286,11 +287,11 @@
 
 export default {
   name: 'Risorse',
-  components: {coframework, handbook, valori, role, how, crazy, tavola, questionario, moduli, stakeholder, tag, ritratto, mindmap, mood, only},
+  components: {coframeworkicon, handbook, valori, role, how, crazy, tavola, questionario, moduli, stakeholder, tag, ritratto, mindmap, mood, only},
   props: [],
 }
 
-import coframework from "~/assets/svg/r-coframework.svg?inline";
+import coframeworkicon from "~/assets/svg/r-coframework.svg?inline";
 import handbook from "~/assets/svg/r-book.svg?inline";
 import tavola from "~/assets/svg/r-tavoladiprogetto.svg?inline";
 import questionario from "~/assets/svg/r-questionario.svg?inline";
@@ -331,8 +332,8 @@ import crazy from "~/assets/svg/r-crazy.svg?inline";
 @media (max-width: 768px) {
 
   .boxhover{
-    width: 160px;
-    height: 160px;
+    width: 155px;
+    height: 155px;
   }
 
   .iconcine{

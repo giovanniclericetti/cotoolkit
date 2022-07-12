@@ -6,7 +6,7 @@
 
       <b-col class="col-md-4 col-12">
 
-          <div class="iconrisorse">
+          <div class="iconrisorse my-3">
             <img :src="require(`~/assets/svg/${iconrisorsa}.svg`)">
           </div>
 
@@ -114,12 +114,12 @@ export default {
 
 .pills{
   border-radius: 5px;
-  background-color: #FCBB16;
+  background-color: var(--color-primary);
   border: none;
 }
 
 .pills:hover{
-  background-color: #FCBB16;
+  background-color: var(--color-primary);
   cursor: default;
 }
 
@@ -127,11 +127,15 @@ export default {
 .tab_info{
   font-size: 18px;
   font-weight: bold;
-  color: #FCBB16;
+  color: var(--color-primary);
 }
 
 .iconrisorse{
-  width: 60%;
+  height: 50%;
+}
+
+.iconrisorse img{
+  max-height: 200px;
 }
 
 .withborderdx{

@@ -3,7 +3,7 @@
   <div class="container-fluid footer justify-content-center p-5">
 
 
-    <b-row class="justify-content-md-center row" align-v="center">
+    <b-row class="justify-content-md-center" align-v="center">
 
       <b-col class="py-2 footerseparation col-md-auto col-6 mb-3 mb-md-0 px-md-5" >
 
@@ -68,6 +68,8 @@
 
     </b-col>
     </b-row>
+
+
 
   </div>
 </template>

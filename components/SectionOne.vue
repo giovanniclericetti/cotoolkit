@@ -1,6 +1,7 @@
 <template>
 
-  <div class="container-fluid container sectionone mt-5 mx-2" align-v="bottom" >
+  <div class="container-fluid
+   sectionone mt-md-3 mt-5 mx-2" align-v="bottom" >
 
     <div class="row align-items-center p-md-5">
 
@@ -22,8 +23,15 @@
 
 
     </div>
-
+      <div  style="order: 4; text-align: center" >
+        <b-link class="h2" to="#inizioabout">
+          <b-icon icon="arrow-down-circle-fill" class="iconhover"></b-icon>
+        </b-link>
+      </div>
   </div>
+
+
+
   </div>
 
 
