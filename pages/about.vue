@@ -12,10 +12,11 @@
 
     <SectionOne
       gifabout="about"
+      class="py-5"
       sottotitolo="Un progetto nato per facilitare il processo di branding in un’epoca di forte digitalizzazione e partecipazione attiva alla vita della marca.">
 
 
-        Vi presentiamo il Community Branding <i>Co-design</i> Toolkit
+        Ecco il Community Branding <i>Co-design</i> Toolkit
 
 
 
@@ -88,9 +89,11 @@
 
     </InfoParagraph>
 
-    <div class="row justify-content-center figmapack">
-
-  <img src="~assets/svg/about_figmapack.svg" >
+    <div class="container justify-content-center figmapack">
+      <span class="desktop">
+  <img src="~assets/svg/about_figmapack.svg" > </span>
+      <span class="mobile">
+  <img src="~assets/svg/aboutmobile.svg" > </span>
 
     </div>
 
@@ -144,6 +147,25 @@ export default {
 
 <style>
 
+.desktop{
+  display: block;
+}
+
+.mobile{
+  display: none;
+}
+
+@media (max-width: 768px) {
+
+  .desktop{
+    display: none;
+  }
+
+  .mobile{
+    display: block;
+  }
+
+  }
 
 </style>
 

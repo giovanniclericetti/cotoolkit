@@ -1,16 +1,16 @@
 <template>
 
-  <div class="container-fluid sectionone mt-5 px-5" align-v="bottom" >
+  <div class="container-fluid container sectionone mt-5 mx-2" align-v="bottom" >
 
-    <div class="row align-items-center p-5">
+    <div class="row align-items-center p-md-5">
 
-      <div class="col-md-6 col-6">
+      <div class="col-md-6 col-12  gifintro">
 
         <img class="gifcover" :src="require(`~/assets/images/${gifabout}.gif`)" />
 
       </div>
 
-      <div class="col-md-6">
+      <div class="col-md-6 testisection testintro">
 
         <h2 class="mb-4" style="max-width:700px">
           <slot/>
@@ -23,9 +23,6 @@
 
     </div>
 
-    <div>
-    <ProvaSvg class="mx-auto d-block" />
-    </div>
   </div>
   </div>
 
@@ -57,12 +54,35 @@ export default {
   width: 100%;
 }
 
+.testintro{
+  order: 2;
+}
+
+.gifintro{
+  order: 1;
+}
+
 
 @media (max-width: 768px) {
 
   .sectionone {
     height: auto;
 
+  }
+
+  .testintro{
+    order: 1;
+  }
+
+  .gifintro{
+    order: 2;
+  }
+
+  .testisection {
+    order: 1;
+    text-align: left;
+    font-size: 20px;
+    max-width: 390px;
   }
 
 }
