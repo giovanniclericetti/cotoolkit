@@ -1,7 +1,7 @@
 <template>
 
 
-    <div class=" row align-items-center p-md-5 ">
+    <div class="m-1 m-md-0 row align-items-center p-md-5 ">
       <div class="col-md-7">
 
         <h2 class="mb-md-4">
