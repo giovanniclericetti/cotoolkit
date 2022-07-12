@@ -141,16 +141,20 @@
 
     h4{
 
-      font-size: 20px;
+      font-size: 35px;
     }
 
     h5{
 
-      font-size: 25px;
+      font-size: 20px;
     }
 
     p{
       font-size:16px;
+    }
+
+    svg .show-on-hover {
+      opacity: 1;
     }
 
 

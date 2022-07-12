@@ -1,10 +1,10 @@
 <template>
 
 
-    <div class="container row align-items-center p-5 ">
+    <div class=" row align-items-center p-md-5 ">
       <div class="col-md-7">
 
-        <h2 class="mb-4">
+        <h2 class="mb-md-4">
           {{ title }}
         </h2>
 

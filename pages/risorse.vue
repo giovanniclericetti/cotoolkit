@@ -11,7 +11,7 @@
     >
 
       Scopri gli strumenti <br>
-      per <i> co-creare </i> in modo <br>
+      per <i> co-creare </i> in modo
       semplice e guidato
 
     </FirstSectionDx>
@@ -33,21 +33,23 @@
         </div>
 
       </RisorseSection>
-
-      <b-container class="mb-5">
+    <div class="container">
+      <b-container class="mb-md-5">
         <b-row cols="2" cols-sm="2" cols-md="2" cols-lg="4">
 
           <b-col> <b-link to="/co-framework/" class="linkhover">
-            <div class="boxhover p-3 shadow mb-5">
-              <coframework class="p-2" style="max-height: 160px"/>
+            <div class="boxhover p-3 shadow mb-md-5 mb-5">
+              <coframework class="p-2 iconcine"
+
+              />
               <BoxHover risorsa="Co-Framework">
               </BoxHover>
             </div> </b-link>
           </b-col>
 
           <b-col> <b-link to="/co-framework/" class="linkhover">
-            <div class="boxhover p-3 shadow mb-5">
-              <handbook class="p-2" style="max-height: 160px"/>
+            <div class="boxhover p-3 shadow mb-md-5 mb-5">
+              <handbook class="p-2 iconcine"/>
               <BoxHover risorsa="Co-design Handbook">
               </BoxHover>
             </div> </b-link>
@@ -55,8 +57,8 @@
 
 
           <b-col> <b-link to="/co-framework/" class="linkhover">
-            <div class="boxhover p-3 shadow mb-5">
-              <tavola class="p-2" style="max-height: 160px"/>
+            <div class="boxhover p-3 shadow mb-md-5 mb-5">
+              <tavola class="p-2 iconcine" />
               <BoxHover risorsa="Tavola di Progetto">
               </BoxHover>
             </div> </b-link>
@@ -68,10 +70,11 @@
 
 
 
+    </div>
 
     </div>
 
-    <div class="align-left py-2 pb-md-5" id="stakeholders" style="background-color: #F9F9F9">
+    <div class="container align-left py-2 pb-md-5" id="stakeholders" style="max-width: 100vw; background-color: #F9F9F9;">
 
       <RisorseSection
         title="Per il rapporto con gli Stakeholders"
@@ -84,21 +87,21 @@
         </div>
 
       </RisorseSection>
-
-      <b-container class="mb-5">
+      <div class="container">
+      <b-container class="mb-md-5">
         <b-row cols="2" cols-sm="2" cols-md="2" cols-lg="4">
 
           <b-col> <b-link to="/co-framework/" class="linkhover">
-            <div class="boxhover p-3 shadow mb-5">
-              <questionario class="p-2" style="max-height: 160px"/>
+            <div class="boxhover p-3 shadow mb-md-5 mb-5">
+              <questionario class="p-2 iconcine"/>
               <BoxHover risorsa="Questionario">
               </BoxHover>
             </div> </b-link>
           </b-col>
 
           <b-col> <b-link to="/co-framework/" class="linkhover">
-            <div class="boxhover p-3 shadow mb-5">
-              <moduli class="p-2" style="max-height: 160px"/>
+            <div class="boxhover p-3 shadow mb-md-5 mb-5">
+              <moduli class="p-2 iconcine" />
               <BoxHover risorsa="Moduli d'invito">
               </BoxHover>
             </div> </b-link>
@@ -106,8 +109,8 @@
 
 
           <b-col> <b-link to="/co-framework/" class="linkhover">
-            <div class="boxhover p-3 shadow mb-5">
-              <stakeholder class="p-2" style="max-height: 160px"/>
+            <div class="boxhover p-3 shadow mb-md-5 mb-5">
+              <stakeholder class="p-2 iconcine" />
               <BoxHover risorsa="Stakeholder Analysis">
               </BoxHover>
             </div> </b-link>
@@ -115,7 +118,7 @@
 
         </b-row>
       </b-container>
-
+      </div>
     </div>
 
     <div class="container align-left py-5" id="asincrono">
@@ -131,45 +134,45 @@
         </div>
 
       </RisorseSection>
-
-      <b-container class="mb-5">
+    <div class="container">
+      <b-container class="mb-md-5">
         <b-row cols="2" cols-sm="2" cols-md="2" cols-lg="4">
 
           <b-col> <b-link to="/co-framework/" class="linkhover">
-            <div class="boxhover py-3 shadow mb-5">
-              <ritratto class="p-2" style="max-height: 160px "/>
+            <div class="boxhover py-3 shadow mb-md-5 mb-5">
+              <ritratto class="p-2 iconcine" />
               <BoxHover risorsa="Ritratto Cinese">
               </BoxHover>
             </div> </b-link>
           </b-col>
 
           <b-col> <b-link to="/co-framework/" class="linkhover">
-            <div class="boxhover py-3 shadow mb-5">
-              <tag class="p-2" style="max-height: 160px"/>
+            <div class="boxhover py-3 shadow mb-md-5 mb-5">
+              <tag class="p-2 iconcine" />
               <BoxHover risorsa="Tag Cloud">
               </BoxHover>
             </div> </b-link>
           </b-col>
 
           <b-col> <b-link to="/co-framework/" class="linkhover">
-            <div class="boxhover py-3 shadow mb-5">
-              <mindmap class="p-2" style="max-height: 160px"/>
+            <div class="boxhover py-3 shadow mb-md-5 mb-5">
+              <mindmap class="p-2 iconcine" />
               <BoxHover risorsa="Mindmap">
               </BoxHover>
             </div> </b-link>
           </b-col>
 
           <b-col> <b-link to="/co-framework/" class="linkhover">
-            <div class="boxhover p-3 shadow mb-5">
-              <mood class="p-2" style="max-height: 160px"/>
+            <div class="boxhover p-3 shadow mb-md-5 mb-5">
+              <mood class="p-2 iconcine" />
               <BoxHover risorsa="Moodboard">
               </BoxHover>
             </div> </b-link>
           </b-col>
 
           <b-col> <b-link to="/co-framework/" class="linkhover">
-            <div class="boxhover p-3 shadow mt-md-4">
-              <only class="p-2" style="max-height: 160px"/>
+            <div class="boxhover p-3 shadow mt-md-4 mb-md-5 mb-5">
+              <only class="p-2 iconcine" />
               <BoxHover risorsa="Onlyness Statement">
               </BoxHover>
             </div> </b-link>
@@ -180,8 +183,10 @@
       </b-container>
 
     </div>
+  </div>
 
-    <div class="align-left py-2 pb-md-5" style="background-color: #F9F9F9" id="sincrono">
+
+    <div class="container align-left py-5 " style="background-color: #F9F9F9; max-width: 100vw;" id="sincrono">
 
       <RisorseSection
         title="Per il Workshop Sincrono"
@@ -195,20 +200,21 @@
 
       </RisorseSection>
 
-      <b-container class="mb-5">
+      <div class="container">
+      <b-container class="mb-md-5">
         <b-row cols="2" cols-sm="2" cols-md="2" cols-lg="4">
 
           <b-col> <b-link to="/co-framework/" class="linkhover">
-            <div class="boxhover p-3 shadow mb-5">
-              <valori class="p-2" style="max-height: 160px"/>
+            <div class="boxhover p-3 shadow mb-md-5 mb-5">
+              <valori class="p-2 iconcine" />
               <BoxHover risorsa="Definizione Valori">
               </BoxHover>
             </div> </b-link>
           </b-col>
 
           <b-col> <b-link to="/co-framework/" class="linkhover">
-            <div class="boxhover p-3 shadow mb-5">
-              <role class="p-2" style="max-height: 160px"/>
+            <div class="boxhover p-3 shadow mb-md-5 mb-5">
+              <role class="p-2 iconcine" />
               <BoxHover risorsa="Role Playing">
               </BoxHover>
             </div> </b-link>
@@ -216,8 +222,8 @@
 
 
           <b-col> <b-link to="/co-framework/" class="linkhover">
-            <div class="boxhover p-3 shadow mb-5">
-              <how class="p-2" style="max-height: 160px"/>
+            <div class="boxhover p-3 shadow mb-md-5 mb-5">
+              <how class="p-2 iconcine" />
               <BoxHover risorsa="How Might We">
               </BoxHover>
             </div> </b-link>
@@ -225,7 +231,7 @@
 
           <b-col> <b-link to="/co-framework/" class="linkhover">
             <div class="boxhover p-3 shadow mb-5">
-              <crazy class="p-2" style="max-height: 160px"/>
+              <crazy class="p-2 iconcine" />
               <BoxHover risorsa="Crazy 8">
               </BoxHover>
             </div> </b-link>
@@ -235,6 +241,8 @@
       </b-container>
 
     </div>
+    </div>
+
 
 
 
@@ -247,6 +255,7 @@
     <div class="container">
       <RisorseNuovoTool
         title="Proponi un nuovo tool per il tuo progetto"
+        class="my-5 mb-md-2"
       >
 
         Hai un metodo tutto tuo per fare branding e usi strumenti nuovi e fenomenali? Consigliaci i tuoi tool preferiti. Potremmo implementarli nel nuovo aggiornamento.
@@ -314,6 +323,24 @@ import crazy from "~/assets/svg/r-crazy.svg?inline";
 .linkhover:hover{
   color: black;
 }
+
+.iconcine{
+  max-height: 160px
+}
+
+@media (max-width: 768px) {
+
+  .boxhover{
+    width: 160px;
+    height: 160px;
+  }
+
+  .iconcine{
+    max-height: 100px
+  }
+
+  }
+
 
 </style>
 

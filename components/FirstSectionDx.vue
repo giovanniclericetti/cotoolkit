@@ -1,9 +1,10 @@
 <template>
 
-  <div class="container-fluid sectionone mt-5 px-5 shadow">
+  <div class="container-fluid sectionone mt-md-5 px-md-5 mt-5 pt-5 shadow">
 
-    <div class="row align-items-center px-5 " align-v="center">
-      <div class="col">
+    <div class="row align-items-center px-md-5 px-2" align-v="center" >
+
+      <div class="col fototop">
 
         <img class="gifcover" :src="require(`~/assets/images/${gifdx}.gif`)" />
 
@@ -21,7 +22,7 @@
 
       </div>
 
-      <div >
+      <div class="menudroppato mb-5">
         <b-dropdown id="dropdown-1"
                     class="m-md-2 drophome shadow p-1 mx-md-5"
                     style="border-radius: 10px; font-size: 22px; font-weight: 700;"
@@ -102,6 +103,21 @@ export default {
   .sectionone {
     height: auto;
 
+  }
+
+  .rightsubtitle {
+    order: 1;
+    text-align: left;
+    font-size: 20px;
+    max-width: 390px;
+  }
+
+  .fototop{
+    order: 2;
+  }
+
+  .menudroppato{
+    order: 3;
   }
 
 }

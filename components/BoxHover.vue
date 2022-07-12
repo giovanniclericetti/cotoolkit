@@ -1,6 +1,6 @@
 <template>
 
-  <div class="container mb-2 mt-3 testohoveratolink" >
+  <div class="mb-md-2 mt-md-3 testohoveratolink scrittebox" >
 
     {{risorsa}}
 
@@ -20,5 +20,10 @@ export default {
 
 <style scoped>
 
-
+@media (max-width: 768px) {
+.scrittebox {
+ font-size: 14px;
+  line-height: 110%;
+  padding-top: 5px;
+  }}
 </style>

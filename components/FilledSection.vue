@@ -6,7 +6,7 @@
 
   <div class="container-fluid filled justify-content-center p-5">
 
-    <h2 class="my-4 mt-5">
+    <h2 class="my-md-4 mt-md-5">
       <slot/>
     </h2>
 
