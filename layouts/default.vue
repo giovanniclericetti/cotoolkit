@@ -102,6 +102,11 @@
     --color-primary: #9747FF;
   }
 
+  .theme-blue{
+    --color-primary: #4EAAF0;
+  }
+
+
 
 
   .text-primary {

@@ -16,15 +16,17 @@
 
     </FirstSectionDx>
 
-    <div class="container align-left py-5">
+
+
+    <div class="container align-left py-5" id="perprogettare">
 
       <RisorseSection
         title="Per Progettare"
       >
 
-        <div style="max-width: 680px">
+        <div style="max-width: 680px" class="theme-yellow">
 
-          <span style="color: #FCBB16; font-weight: 500"> Usa questi tool </span> per impostare il progetto,
+          <span style="color: var(--color-primary); font-weight: 500" > Usa questi tool </span> per impostare il progetto,
           avere delle linee guida da seguire e conoscere
           di più come si affronta un lavoro di Co-design per il branding.
 
@@ -36,7 +38,7 @@
         <b-row cols="2" cols-sm="2" cols-md="2" cols-lg="4">
 
           <b-col> <b-link to="/co-framework/" class="linkhover">
-            <div class="boxhover p-3 shadow">
+            <div class="boxhover p-3 shadow mb-5">
               <coframework class="p-2" style="max-height: 160px"/>
               <BoxHover risorsa="Co-Framework">
               </BoxHover>
@@ -44,7 +46,7 @@
           </b-col>
 
           <b-col> <b-link to="/co-framework/" class="linkhover">
-            <div class="boxhover p-3 shadow">
+            <div class="boxhover p-3 shadow mb-5">
               <handbook class="p-2" style="max-height: 160px"/>
               <BoxHover risorsa="Co-design Handbook">
               </BoxHover>
@@ -53,20 +55,13 @@
 
 
           <b-col> <b-link to="/co-framework/" class="linkhover">
-            <div class="boxhover p-3 shadow">
+            <div class="boxhover p-3 shadow mb-5">
               <tavola class="p-2" style="max-height: 160px"/>
               <BoxHover risorsa="Tavola di Progetto">
               </BoxHover>
             </div> </b-link>
           </b-col>
 
-
-
-
-
-
-
-
         </b-row>
       </b-container>
 
@@ -76,54 +71,178 @@
 
     </div>
 
-    <div class="align-left py-2" style="background-color: #F9F9F9">
+    <div class="align-left py-2 pb-md-5" id="stakeholders" style="background-color: #F9F9F9">
 
       <RisorseSection
-        title="Per Progettare"
+        title="Per il rapporto con gli Stakeholders"
       >
 
-        <div style="max-width: 680px">
+        <div style="max-width: 1020px" class="theme-blue">
 
-          <span style="color: #FCBB16; font-weight: 500"> Usa questi tool </span> per impostare il progetto,
-          avere delle linee guida da seguire e conoscere
-          di più come si affronta un lavoro di Co-design per il branding.
+          <span style="color: var(--color-primary); font-weight: 500" > Usa questi tool </span> per analizzare i cluster di stakeholder che prenderanno parte al progetto, invitarli a partecipare alle varie attività di co-creazione e definire all’origine qual è la situazione del brand prima che il progetto cominci.
 
         </div>
 
       </RisorseSection>
 
-      <b-container class="bv-example-row mb-5">
+      <b-container class="mb-5">
         <b-row cols="2" cols-sm="2" cols-md="2" cols-lg="4">
 
-          <b-col>
-            <div class="boxhover p-4 shadow">
-              <coframework class="p-4"/>
-              <BoxHover risorsa="Co-framework">
+          <b-col> <b-link to="/co-framework/" class="linkhover">
+            <div class="boxhover p-3 shadow mb-5">
+              <questionario class="p-2" style="max-height: 160px"/>
+              <BoxHover risorsa="Questionario">
               </BoxHover>
-            </div>
+            </div> </b-link>
           </b-col>
 
-          <b-col>
-            <div class="boxhover p-4 shadow">
-              <handbook class="p-4"/>
-              <BoxHover risorsa="Co-framework">
+          <b-col> <b-link to="/co-framework/" class="linkhover">
+            <div class="boxhover p-3 shadow mb-5">
+              <moduli class="p-2" style="max-height: 160px"/>
+              <BoxHover risorsa="Moduli d'invito">
               </BoxHover>
-            </div>
+            </div> </b-link>
           </b-col>
 
 
-          <b-col>
-            <div class="boxhover p-4 shadow">
-              <tavola class="p-4"/>
-              <BoxHover risorsa="tavola">
+          <b-col> <b-link to="/co-framework/" class="linkhover">
+            <div class="boxhover p-3 shadow mb-5">
+              <stakeholder class="p-2" style="max-height: 160px"/>
+              <BoxHover risorsa="Stakeholder Analysis">
               </BoxHover>
-            </div>
+            </div> </b-link>
           </b-col>
 
         </b-row>
       </b-container>
 
     </div>
+
+    <div class="container align-left py-5" id="asincrono">
+
+      <RisorseSection
+        title="Per il Workshop Asincrono"
+      >
+
+        <div style="max-width: 680px" class="theme-green">
+
+          <span style="color: var(--color-primary); font-weight: 500" > Usa questi tool </span> per raccogliere informazioni, ottenere suggestioni e comprendere il sentiment del brand dal punto di vista degli stakeholder.
+
+        </div>
+
+      </RisorseSection>
+
+      <b-container class="mb-5">
+        <b-row cols="2" cols-sm="2" cols-md="2" cols-lg="4">
+
+          <b-col> <b-link to="/co-framework/" class="linkhover">
+            <div class="boxhover py-3 shadow mb-5">
+              <ritratto class="p-2" style="max-height: 160px "/>
+              <BoxHover risorsa="Ritratto Cinese">
+              </BoxHover>
+            </div> </b-link>
+          </b-col>
+
+          <b-col> <b-link to="/co-framework/" class="linkhover">
+            <div class="boxhover py-3 shadow mb-5">
+              <tag class="p-2" style="max-height: 160px"/>
+              <BoxHover risorsa="Tag Cloud">
+              </BoxHover>
+            </div> </b-link>
+          </b-col>
+
+          <b-col> <b-link to="/co-framework/" class="linkhover">
+            <div class="boxhover py-3 shadow mb-5">
+              <mindmap class="p-2" style="max-height: 160px"/>
+              <BoxHover risorsa="Mindmap">
+              </BoxHover>
+            </div> </b-link>
+          </b-col>
+
+          <b-col> <b-link to="/co-framework/" class="linkhover">
+            <div class="boxhover p-3 shadow mb-5">
+              <mood class="p-2" style="max-height: 160px"/>
+              <BoxHover risorsa="Moodboard">
+              </BoxHover>
+            </div> </b-link>
+          </b-col>
+
+          <b-col> <b-link to="/co-framework/" class="linkhover">
+            <div class="boxhover p-3 shadow mt-md-4">
+              <only class="p-2" style="max-height: 160px"/>
+              <BoxHover risorsa="Onlyness Statement">
+              </BoxHover>
+            </div> </b-link>
+          </b-col>
+
+
+        </b-row>
+      </b-container>
+
+    </div>
+
+    <div class="align-left py-2 pb-md-5" style="background-color: #F9F9F9" id="sincrono">
+
+      <RisorseSection
+        title="Per il Workshop Sincrono"
+      >
+
+        <div style="max-width: 1010px" class="theme-green">
+
+          <span style="color: var(--color-primary); font-weight: 500" > Usa questi tool </span> per condurre un workshop di Co-design volto a definire gli elementi alla base del nuovo brand. Sia intangibili come valori, tono di voce, punti di forza e debolezza; sia tangibili come palette, logo e touchpoint.
+
+        </div>
+
+      </RisorseSection>
+
+      <b-container class="mb-5">
+        <b-row cols="2" cols-sm="2" cols-md="2" cols-lg="4">
+
+          <b-col> <b-link to="/co-framework/" class="linkhover">
+            <div class="boxhover p-3 shadow mb-5">
+              <valori class="p-2" style="max-height: 160px"/>
+              <BoxHover risorsa="Definizione Valori">
+              </BoxHover>
+            </div> </b-link>
+          </b-col>
+
+          <b-col> <b-link to="/co-framework/" class="linkhover">
+            <div class="boxhover p-3 shadow mb-5">
+              <role class="p-2" style="max-height: 160px"/>
+              <BoxHover risorsa="Role Playing">
+              </BoxHover>
+            </div> </b-link>
+          </b-col>
+
+
+          <b-col> <b-link to="/co-framework/" class="linkhover">
+            <div class="boxhover p-3 shadow mb-5">
+              <how class="p-2" style="max-height: 160px"/>
+              <BoxHover risorsa="How Might We">
+              </BoxHover>
+            </div> </b-link>
+          </b-col>
+
+          <b-col> <b-link to="/co-framework/" class="linkhover">
+            <div class="boxhover p-3 shadow mb-5">
+              <crazy class="p-2" style="max-height: 160px"/>
+              <BoxHover risorsa="Crazy 8">
+              </BoxHover>
+            </div> </b-link>
+          </b-col>
+
+        </b-row>
+      </b-container>
+
+    </div>
+
+
+
+
+
+
+
+
 
     <div class="container">
       <RisorseNuovoTool
@@ -158,13 +277,25 @@
 
 export default {
   name: 'Risorse',
-  components: {coframework, handbook, tavola},
+  components: {coframework, handbook, valori, role, how, crazy, tavola, questionario, moduli, stakeholder, tag, ritratto, mindmap, mood, only},
   props: [],
 }
 
 import coframework from "~/assets/svg/r-coframework.svg?inline";
 import handbook from "~/assets/svg/r-book.svg?inline";
 import tavola from "~/assets/svg/r-tavoladiprogetto.svg?inline";
+import questionario from "~/assets/svg/r-questionario.svg?inline";
+import moduli from "~/assets/svg/r-moduli.svg?inline";
+import stakeholder from "~/assets/svg/r-stakeholder.svg?inline";
+import ritratto from "~/assets/svg/r-ritratto.svg?inline";
+import tag from "~/assets/svg/r-cloud.svg?inline";
+import mindmap from "~/assets/svg/r-mindmap.svg?inline";
+import mood from "~/assets/svg/r-moodboard.svg?inline";
+import only from "~/assets/svg/r-onlyness.svg?inline";
+import valori from "~/assets/svg/r-valori.svg?inline";
+import role from "~/assets/svg/r-role.svg?inline";
+import how from "~/assets/svg/r-howmight.svg?inline";
+import crazy from "~/assets/svg/r-crazy.svg?inline";
 
 
 </script>

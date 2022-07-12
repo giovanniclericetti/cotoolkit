@@ -22,13 +22,19 @@
       </div>
 
       <div>
-        <b-dropdown id="dropdown-1" text="Dropdown Button" class="m-md-2">
-          <b-dropdown-item>First Action</b-dropdown-item>
-          <b-dropdown-item>Second Action</b-dropdown-item>
-          <b-dropdown-item>Third Action</b-dropdown-item>
-          <b-dropdown-divider></b-dropdown-divider>
-          <b-dropdown-item active>Active action</b-dropdown-item>
-          <b-dropdown-item disabled>Disabled action</b-dropdown-item>
+        <b-dropdown id="dropdown-1"
+                    class="m-md-2 drophome shadow p-1"
+                    style="border-radius: 10px; font-size: 22px; font-weight: 700;"
+                    split-variant="outline-primary"
+                    variant="white"
+                    size="lg"
+                    text="Elenco Tool"
+
+                 >
+          <b-dropdown-item class="dropmenu"  to="#perprogettare"> Per Progettare </b-dropdown-item>
+          <b-dropdown-item class="dropmenu" to="#stakeholders"> Rapporto con gli Stakeholders </b-dropdown-item>
+          <b-dropdown-item class="dropmenu" to="#asincrono"> Workshop Asincrono </b-dropdown-item>
+          <b-dropdown-item class="dropmenu" to="#sincrono"> Workshop Sincrono </b-dropdown-item>
         </b-dropdown>
       </div>
 
@@ -75,6 +81,21 @@ export default {
   text-align: right;
   max-width: 720px;
 }
+
+.dropmenu{
+  font-size: 20px;
+  background-color: white;
+}
+
+.drophome{
+  font-size: 22px;
+  background-color: white;
+}
+
+.dropmenu:hover{
+  background-color: #F9F9F9;
+}
+
 
 @media (max-width: 768px) {
 
