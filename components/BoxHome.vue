@@ -42,7 +42,7 @@
 </div>
 
 
-  <div class="mobile">
+  <div class="mobile mb-5">
 
     <b-row>
 
