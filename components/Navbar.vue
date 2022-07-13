@@ -1,6 +1,6 @@
 <template>
   <b-navbar toggleable="lg" type="light" class="navbar fixed-top navbar-expand-md navbar-light bg-white shadow">
-    <b-navbar-brand class="navbar-brand px-5" href="#">
+    <b-navbar-brand class="navbar-brand px-5" to="/">
 
       <img src="~assets/svg/logo.svg" alt="" height="40px" class="d-inline-block align-text-top ">
 

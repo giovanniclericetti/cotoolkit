@@ -4,7 +4,7 @@
 
     <div class="row justify-content-center sectionconforme align-items-center">
 
-      <h2 class="text-center co-progetta py-5 mt-5">
+      <h2 class="co-progetta py-5 mt-5" >
         <slot/>
       </h2>
 
@@ -33,7 +33,9 @@ export default {
 
 
 .co-progetta{
-  max-width: 1000px;
+  max-width: 1100px;
+  font-size: 70px;
+  text-align: center;
 }
 
 .sectionconforme{
@@ -43,6 +45,15 @@ export default {
   background-image: url("~static/formegruppo.svg");
   background-repeat: no-repeat;
   background-size: cover;
+
+}
+
+@media (max-width: 768px) {
+
+  .co-progetta{
+    font-size: 50px;
+    text-align: left;
+  }
 
 }
 

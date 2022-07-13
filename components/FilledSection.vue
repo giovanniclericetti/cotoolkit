@@ -6,7 +6,7 @@
 
   <div class="container-fluid filled justify-content-center p-5">
 
-    <h2 class="my-md-4 mt-md-5">
+    <h2 class="my-md-4 mt-md-5 testifilled">
       <slot/>
     </h2>
 
@@ -53,6 +53,11 @@ background-color: var(--color-primary);
   max-width: 630px;
   color: white;
 }
+
+@media (max-width: 768px) {
+.testifilled{
+font-size: 35px;
+}}
 
 
 </style>

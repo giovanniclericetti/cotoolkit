@@ -1,10 +1,10 @@
 <template>
 
-  <div class="container-fluid sectionone mt-5 p-5">
-    <div class="row align-items-center p-5">
+  <div class="container-fluid sectionone mt-5 py-5">
+    <div class="row align-items-center p-md-5">
       <div class="col-md-7">
 
-        <h2 class="mb-4">
+        <h2 class="mb-4 testifirstsection" >
           {{ title }}
         </h2>
 
@@ -53,12 +53,20 @@ export default {
   width: 100%;
 }
 
+.testifirstsection{
+  font-size: 70px
+}
+
 @media (max-width: 768px) {
 
   .sectionone {
     height: auto;
 
   }
+  .testifirstsection{
+    font-size: 50px
+  }
+
 
 }
 

@@ -78,9 +78,8 @@
     opacity: 1;
   }
 
-  b-link {
+.linkino {
     color: black;
-    text-decoration: none;
   }
 
   :root {
@@ -107,7 +106,20 @@
     --color-primary: #4EAAF0;
   }
 
+  .whiteicon {
+    color: white !important;
 
+  }
+
+
+  .cardhome:hover #hoverimage {
+    transform: scale(1.1);
+    transition: 0.3s ease-in-out;
+  }
+
+  #hoverimage {
+    transition: 0.3s ease-in-out;
+  }
 
 
   .text-primary {
@@ -119,14 +131,25 @@
     border-radius: 20px;
     background-color: #F9F9F9;
     height: 100%;
-
   }
 
   .tools{
+    background-image: url("~assets/svg/card4.svg");
+    background-size: 120%;
+    transition: 0.3s ease-in-out;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
   }
+
+
+
+  .boxhomebg:hover{
+    background-size: 130%;
+    transition: 0.3s ease-in-out;
+  }
+
+
 
   .desktop{
     display: block;
@@ -142,6 +165,10 @@
 
   }
 
+  .boxhomebg:hover{
+    background-size: 130%;
+    transition: 0.3s ease-in-out;
+  }
 
 
 

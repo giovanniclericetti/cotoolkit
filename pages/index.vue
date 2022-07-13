@@ -6,7 +6,7 @@
       <Navbar/>
     </div>
 
-    <div>
+    <div class="container">
       <FirstSection
         title="Un toolkit di Co-design per gestire il tuo progetto di community branding."
         imgSrc="~assets/svg/logo.svg"
