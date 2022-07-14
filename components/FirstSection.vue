@@ -54,7 +54,7 @@ export default {
 }
 
 .testifirstsection{
-  font-size: 70px
+  font-size: 65px
 }
 
 @media (max-width: 768px) {

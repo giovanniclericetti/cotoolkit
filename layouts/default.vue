@@ -106,10 +106,16 @@
     --color-primary: #4EAAF0;
   }
 
+  .theme-grey{
+    --color-primary: #7D7D7D;
+  }
+
   .whiteicon {
     color: white !important;
 
   }
+
+
 
 
   .cardhome:hover #hoverimage {

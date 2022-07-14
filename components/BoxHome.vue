@@ -48,7 +48,7 @@
 
       <b-col class="m-2">
 
-        <b-link class="linkino" href= "mailto:cotoolkit@gmail.com" align-v="stretch">
+        <b-link class="linkino" to="/co-framework/" align-v="stretch">
           <BoxHomeFramework/>
         </b-link>
 
@@ -58,7 +58,7 @@
 
       <b-col class="m-2" >
 
-        <b-link class="linkino"  align-v="stretch">
+        <b-link class="linkino"  align-v="stretch" to="/handbook/">
           <BoxHomeCoDesign/>
         </b-link>
 
@@ -66,7 +66,7 @@
 
       <b-col class="m-2">
 
-        <b-link class="linkino" href= "mailto:cotoolkit@gmail.com" align-v="stretch">
+        <b-link class="linkino" to="/risorse/" align-v="stretch">
           <BoxHomeTool/>
         </b-link>
 
@@ -74,7 +74,7 @@
 
       <b-col class="m-2">
 
-        <b-link class="linkino"  align-v="stretch">
+        <b-link class="linkino"  align-v="stretch" to="/about/">
           <BoxHomeProject/>
         </b-link>
       </b-col>
