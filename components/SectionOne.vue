@@ -1,11 +1,11 @@
 <template>
 
   <div class="container-fluid
-   sectionone  mt-md-0 mt-5 mx-2" align-v="bottom" >
+   sectionone   mt-5 mx-2"  >
 
-    <div class="row align-items-center p-md-5">
+    <div class="row align-items-center p-md-5 ">
 
-      <div class="col-md-6 col-12  gifintro">
+      <div class="col-md-5 col-12  gifintro">
 
         <img class="gifcover" :src="require(`~/assets/images/${gifabout}.gif`)" />
 
@@ -23,6 +23,10 @@
 
 
     </div>
+
+      <div  style="text-align: center; font-size: 25px;" class="infondoorder mt-3">
+        <a href="#portaquifrecciaabout"> <b-icon class="freccina" icon="arrow-down-circle-fill" ></b-icon> </a>
+      </div>
 
       <!-- <div  style="order: 4; text-align: center" >
         <b-link class="h2" to="#inizioabout">
@@ -69,6 +73,10 @@ export default {
 
 .gifintro{
   order: 1;
+}
+
+.infondoorder{
+  order:5;
 }
 
 

@@ -103,7 +103,7 @@
 
     </div>
 
-    <div>
+    <div id="portaquifreccia">
       <FilledSection
         sottotitolo="Apri un nuovo progetto su Figma, segui gli 8 step del Co-Framework e crea un nuovo brand collaborando con la community."
       >

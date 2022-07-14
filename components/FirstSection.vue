@@ -1,6 +1,6 @@
 <template>
 
-  <div class="container-fluid sectionone mt-5 py-5">
+  <div class="container-fluid sectionone mt-md-4 mt-5 py-5">
     <div class="row align-items-center p-md-5">
       <div class="col-md-7">
 
@@ -19,6 +19,11 @@
         <img class="gifcover" src="~assets/images/homepage.gif">
 
       </div>
+      <div  style="text-align: center; font-size: 25px;">
+        <a href="#portaquifreccia"> <b-icon class="freccina" icon="arrow-down-circle-fill" ></b-icon> </a>
+      </div>
+
+
     </div>
 
 
@@ -55,6 +60,10 @@ export default {
 
 .testifirstsection{
   font-size: 65px
+}
+
+.freccina:hover{
+  color: black;
 }
 
 @media (max-width: 768px) {

@@ -26,7 +26,7 @@
     <InfoParagraph
       class="mt-5"
       title="Cos’è CBCT in breve?"
-      id="inizioabout">
+      id="portaquifrecciaabout">
 
       Il community Branding Co-design Toolkit nasce dall’esigenza di fornire uno <u> strumento di aiuto concreto
       ed estremamente pratico per i designer </u> che si trovano ad affrontare un processo articolato e complesso
