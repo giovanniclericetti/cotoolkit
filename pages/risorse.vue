@@ -38,7 +38,7 @@
         <b-row cols="2" cols-sm="2" cols-md="2" cols-lg="4" class="g-3">
 
           <b-col class=" p-1"> <b-link to="/co-framework/" class="linkhover">
-            <div class=" container boxhover p-3 shadow mb-md-5 ">
+            <div class=" container boxhover py-3 shadow mb-md-5 ">
               <coframeworkicon class="p-2 iconcine"
 
               />
@@ -49,7 +49,7 @@
           </b-col>
 
           <b-col class=" p-1"> <b-link to="/handbook/" class="linkhover">
-            <div class="boxhover container p-3 shadow mb-md-5 ">
+            <div class="boxhover container py-3 shadow mb-md-5 ">
               <handbook class="p-2 iconcine"/>
               <BoxHover risorsa="Co-design Handbook">
               </BoxHover>
@@ -58,7 +58,7 @@
 
 
           <b-col class=" p-1"> <b-link to="/tavola/" class="linkhover">
-            <div class="boxhover container p-3 shadow mb-md-5">
+            <div class="boxhover container py-3 shadow mb-md-5">
               <tavola class="p-2 iconcine" />
               <BoxHover risorsa="Tavola di Progetto">
               </BoxHover>
