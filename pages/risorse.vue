@@ -93,7 +93,7 @@
         <b-row cols="2" cols-sm="2" cols-md="2" cols-lg="4" class="g-3">
 
           <b-col> <b-link to="/questionario/" class="linkhover">
-            <div class="boxhover p-3 shadow mb-md-5 5">
+            <div class="boxhover py-3 shadow mb-md-5 5">
               <questionario class="p-2 iconcine"/>
               <BoxHover risorsa="Questionario">
               </BoxHover>
@@ -101,7 +101,7 @@
           </b-col>
 
           <b-col> <b-link to="/modulidinvito/" class="linkhover">
-            <div class="boxhover p-3 shadow mb-md-5 ">
+            <div class="boxhover py-3 shadow mb-md-5 ">
               <moduli class="p-2 iconcine" />
               <BoxHover risorsa="Moduli d'invito">
               </BoxHover>
@@ -110,7 +110,7 @@
 
 
           <b-col> <b-link to="/stakeholderanalysis/" class="linkhover">
-            <div class="boxhover p-3 shadow mb-md-5 mb-5">
+            <div class="boxhover py-3 shadow mb-md-5 mb-5">
               <stakeholder class="p-2 iconcine" />
               <BoxHover risorsa="Stakeholder Analysis">
               </BoxHover>
@@ -164,7 +164,7 @@
           </b-col>
 
           <b-col> <b-link to="/moodboard/" class="linkhover">
-            <div class="boxhover p-3 shadow mb-md-5">
+            <div class="boxhover py-3 shadow mb-md-5">
               <mood class="p-2 iconcine" />
               <BoxHover risorsa="Moodboard">
               </BoxHover>
@@ -172,7 +172,7 @@
           </b-col>
 
           <b-col> <b-link to="/onlynessstatement/" class="linkhover">
-            <div class="boxhover p-3 shadow mt-md-4 mb-md-5 mb-5">
+            <div class="boxhover py-3 shadow mt-md-4 mb-md-5 mb-5">
               <only class="p-2 iconcine" />
               <BoxHover risorsa="Onlyness Statement">
               </BoxHover>
@@ -206,7 +206,7 @@
         <b-row cols="2" cols-sm="2" cols-md="2" cols-lg="4" class="g-3">
 
           <b-col> <b-link to="/definizionevalori/" class="linkhover">
-            <div class="boxhover p-3 shadow mb-md-5 ">
+            <div class="boxhover py-3 shadow mb-md-5 ">
               <valori class="p-2 iconcine" />
               <BoxHover risorsa="Definizione Valori">
               </BoxHover>
@@ -214,7 +214,7 @@
           </b-col>
 
           <b-col> <b-link to="/roleplaying/" class="linkhover">
-            <div class="boxhover p-3 shadow mb-md-5 ">
+            <div class="boxhover py-3 shadow mb-md-5 ">
               <role class="p-2 iconcine" />
               <BoxHover risorsa="Role Playing">
               </BoxHover>
@@ -223,7 +223,7 @@
 
 
           <b-col> <b-link to="/howmightwe/" class="linkhover">
-            <div class="boxhover p-3 shadow mb-md-5 s">
+            <div class="boxhover py-3 shadow mb-md-5 s">
               <how class="p-2 iconcine" />
               <BoxHover risorsa="How Might We">
               </BoxHover>
@@ -231,7 +231,7 @@
           </b-col>
 
           <b-col> <b-link to="/crazy8/" class="linkhover">
-            <div class="boxhover p-3 shadow mb-5">
+            <div class="boxhover py-3 shadow mb-5">
               <crazy class="p-2 iconcine" />
               <BoxHover risorsa="Crazy 8">
               </BoxHover>
