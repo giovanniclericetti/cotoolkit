@@ -88,7 +88,7 @@
     </InfoParagraph>
 
     <div class="container justify-content-center figmapack">
-      <span class="desktop">
+      <span class="desktop justify-content-center" style="text-align: center;">
   <img src="~assets/svg/about_figmapack.svg" > </span>
       <span class="mobile">
   <img src="~assets/svg/aboutmobile.svg" > </span>

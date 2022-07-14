@@ -16,7 +16,7 @@
 
   </b-row>
 
-  <b-row  class="my-4" style="height: 570px">
+  <b-row  class="my-4" style="height: 530px">
 
     <b-col cols="4"> <b-link class="linkino" to="/risorse/">
       <BoxHomeTool/>

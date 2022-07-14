@@ -8,21 +8,21 @@
   <b-icon icon="arrow-left-circle-fill" class="d-block d-lg-none"></b-icon>
 </b-link>
 
-    <div class="container justify-content-center">
+    <div class="container justify-content-center"  >
 
-      <RisorseIntro
+      <RisorseIntroHandBook
       imgSrcIcon="~assets/svg/about_figmapack.svg"
       title="Co-design Handbook"
       durata="10 minuti"
       partecipanti="1/100+ persone"
       tipologia="per il designer"
-      pill1="DOWNLOAD"
+      handbook="Download"
 
       iconrisorsa="r-book"
 
       >
         Un breve manuale contenente informazioni e consigli sul Co-design e su come condurre un progetto usando questo modello. Un handbook digitale pratico ed estremamente utile se si sa poco della co-progettazione.
-      </RisorseIntro>
+      </RisorseIntroHandBook>
 
 
 
@@ -147,6 +147,12 @@ export default {
 .indietro:hover{
   color: black;
 }
+
+.solohandbook{
+  display: block;
+}
+
+
 
 
 </style>

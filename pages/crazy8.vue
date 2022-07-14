@@ -33,7 +33,7 @@
 
   <b-col class="col-12 row m-mb-5" order="3" order-md="1">
 
-    <img style="width:100%" src="~assets/images/stakeholder.png" >
+    <img style="width:100%" src="~assets/images/crazy.png" >
 
   </b-col>
 

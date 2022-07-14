@@ -6,7 +6,7 @@
       <Navbar/>
     </div>
 
-    <div class="container">
+    <div class="">
       <FirstSection
         title="Un toolkit di Co-design per gestire il tuo progetto di community branding."
         imgSrc="~assets/svg/logo.svg"
@@ -64,7 +64,7 @@
     </div>
 
 
-      <BoxHome/>
+      <BoxHome class="mb-5"/>
 
 
 <Footer/>

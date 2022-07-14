@@ -1,6 +1,6 @@
 <template>
 
-  <div class="container-fluid sectionone mt-md-5 px-md-5 mt-5 pt-5 shadow">
+  <div class="container-fluid sectionone mt-md-4 px-md-5 mt-5 py-5 shadow">
 
     <div class="row align-items-center px-md-5 px-2" align-v="center" >
 
@@ -22,7 +22,7 @@
 
       </div>
 
-      <div class="menudroppato mb-5">
+      <div class="menudroppato mb-5 mt-md-4 desktop">
         <b-dropdown id="dropdown-1"
                     class="m-md-2 drophome shadow p-1 mx-md-5"
                     style="border-radius: 10px; font-size: 22px; font-weight: 700;"
@@ -37,6 +37,25 @@
           <b-dropdown-item class="dropmenu" to="#asincrono"> Workshop Asincrono </b-dropdown-item>
           <b-dropdown-item class="dropmenu" to="#sincrono"> Workshop Sincrono </b-dropdown-item>
         </b-dropdown>
+
+      </div>
+
+      <div class="menudroppato mb-5 mt-md-4 mobile">
+        <b-dropdown id="dropdown-1"
+                    class="m-md-2 drophome shadow p-1 mx-md-5"
+                    style="border-radius: 10px; font-size: 22px; font-weight: 700;"
+                    split-variant="outline-primary"
+                    variant="white"
+                    size="md"
+                    text="Elenco Tool"
+
+        >
+          <b-dropdown-item class="dropmenu"  to="#perprogettare"> Per Progettare </b-dropdown-item>
+          <b-dropdown-item class="dropmenu" to="#stakeholders"> Rapporto con gli Stakeholders </b-dropdown-item>
+          <b-dropdown-item class="dropmenu" to="#asincrono"> Workshop Asincrono </b-dropdown-item>
+          <b-dropdown-item class="dropmenu" to="#sincrono"> Workshop Sincrono </b-dropdown-item>
+        </b-dropdown>
+
       </div>
 
     </div>
@@ -97,6 +116,11 @@ export default {
   background-color: #F9F9F9;
 }
 
+.menudroppato{
+position: absolute;
+  top: 85vh;
+}
+
 
 @media (max-width: 768px) {
 
@@ -118,6 +142,15 @@ export default {
 
   .menudroppato{
     order: 3;
+    position: relative;
+    text-align: center;
+    top: 4vh;
+
+  }
+
+  .dropmenu{
+    font-size: 16px;
+    background-color: white;
   }
 
 }

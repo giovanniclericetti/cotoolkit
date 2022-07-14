@@ -260,8 +260,7 @@
       >
 
         Hai un metodo tutto tuo per fare branding e usi strumenti nuovi e fenomenali? Consigliaci i tuoi tool preferiti. Potremmo implementarli nel nuovo aggiornamento.
-        <br> <br>
-        <span style="color: #9747FF"> <b> >Stay tuned </b> </span>
+
       </RisorseNuovoTool>
 
     </div>

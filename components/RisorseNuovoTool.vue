@@ -24,9 +24,9 @@
 
       <b-row class="container my-md-5 justify-content-center" style="text-align: center">
 <b-col>
-        <ButtonContact>
+  <a href="mailto:cotoolkit@gmail.com"><ButtonContact >
           Contattaci
-        </ButtonContact>
+        </ButtonContact></a>
 </b-col>
       </b-row>
 
@@ -63,12 +63,19 @@ export default {
   width: 100%;
 }
 
+
+a:hover{
+  color: white
+}
+
 @media (max-width: 768px) {
 
   .sectionone {
     height: auto;
 
   }
+
+
 
 }
 

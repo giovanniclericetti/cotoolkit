@@ -29,18 +29,13 @@
 
       <b-col class="col-md-4 col-12 py-3 container my-3 my-md-0">
 
-        <div>
-
-          <b-button block class="pills py-0 m-1"> {{pill1}} </b-button>
-          <b-button class="pills py-0 m-1"> {{pill2}} </b-button>
 
 
+        <div class="solohandbook">
+          <b-button class="handbook p-2 px-5 " to="/about/">
+
+            {{handbook}} </b-button>
         </div>
-        <div>
-          <b-button class="pills py-0 m-1"> {{pill3}} </b-button>
-          <b-button class="pills py-0 m-1"> {{pill4}} </b-button>
-        </div>
-
 
 
       </b-col>
@@ -169,9 +164,7 @@ export default {
   height: 100%;
 }
 
-.solohandbook{
-  display: none;
-}
+
 
 @media (max-width: 768px) {
 
