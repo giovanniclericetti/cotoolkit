@@ -32,9 +32,9 @@
 
 
         <div class="solohandbook">
-          <b-button class="handbook p-2 px-5 " to="/about/">
+          <a class="handbook p-2 px-5 " href="../assets/pdf/handbook.pdf">
 
-            {{handbook}} </b-button>
+            {{handbook}} </a>
         </div>
 
 

@@ -1,10 +1,21 @@
 <template>
   <main class="global-wrapper">
     <Nuxt />
+
   </main>
 </template>
 
+
+<script>
+export default {
+  scrollToTop: true
+}
+</script>
+
 <style>
+
+
+
 
   .global-wrapper {
     margin: 0px;
@@ -55,6 +66,8 @@
   .shadow {
     filter: drop-shadow(0px 0px 0px rgba(10, 10, 10, 0.01));
   }
+
+
 
   a{
     text-decoration: none;

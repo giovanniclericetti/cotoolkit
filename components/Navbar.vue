@@ -1,12 +1,16 @@
 <template>
-  <b-navbar toggleable="lg" type="light" class="navbar fixed-top navbar-expand-md navbar-light bg-white shadow">
-    <b-navbar-brand class="navbar-brand px-5" to="/">
+  <b-navbar toggleable="lg" type="light" class="navbar navbar-expand-sm  fixed-top navbar-expand-md navbar-light bg-white shadow">
 
-      <img src="~assets/svg/logo.svg" alt="" height="40px" class="d-inline-block align-text-top ">
+    <b-navbar-toggle class="ml-auto togglenav px-4" target="nav-collapse" style="border: none;"></b-navbar-toggle>
 
+
+    <b-navbar-brand class="navbar-brand px-3 px-md-5" to="/">
+
+      <div class="desktop">
+      <img src="~assets/svg/logo.svg" height="40px" class="d-inline-block align-text-top"></div>
+     <div class="mobile p-0 m-0"> <img src="~assets/svg/logoreduction.svg"  height="40px" class="d-inline-block align-text-top p-1"> </div>
     </b-navbar-brand>
 
-    <b-navbar-toggle class="ml-auto" target="nav-collapse"></b-navbar-toggle>
 
     <b-collapse id="nav-collapse" is-nav class="right ml-auto justify-content-end my">
       <b-navbar-nav>
