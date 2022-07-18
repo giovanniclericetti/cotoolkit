@@ -73,6 +73,7 @@
 
   svg {
     transition: 0.3s ease-in-out;
+    max-width: 100%;
   }
 
 
