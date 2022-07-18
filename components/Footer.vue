@@ -3,15 +3,15 @@
   <div class="container-fluid footer justify-content-center p-5">
 
 
-    <b-row class="justify-content-md-center" align-v="center">
+    <b-row class="justify-content-md-between" align-v="center">
 
-      <b-col class="py-2 footerseparation col-md-auto col-6 mb-3 mb-md-0 px-md-5" >
+      <b-col class="py-2 footerseparation col-md-2 col-6 mb-3 mb-md-0 ">
 
-        <img src="~assets/svg/iconfooter.svg" alt=""  height="40px" class="d-inline-block align-text-top ">
+        <img src="~assets/svg/iconfooter.svg" alt="" height="40px" class="d-inline-block align-text-top ">
 
       </b-col>
 
-      <b-col class="col-6 col-md-auto mb-3 mb-md-0 px-md-5 ">
+      <b-col class="col-6 col-md-auto mb-3 mb-md-0  ">
         <div class="footer_container poweredby">
           <div>
             <b> Project </b>
@@ -22,18 +22,18 @@
         </div>
       </b-col>
 
-      <b-col class="col-6 col-md-auto" >
+      <b-col class="col-6 col-md-auto">
         <div class="footer_container ">
           <div>
             <b> Contact us </b>
           </div>
-          <a href= "mailto:cotoolkit@gmail.com">
+          <a href="mailto:cotoolkit@gmail.com">
             cotoolkit@gmail.com
           </a>
         </div>
       </b-col>
 
-      <b-col class="col-6 col-md-auto px-md-5">
+      <b-col class="col-6 col-md-auto ">
         <div class="footer_container">
           <div>
             <b> Created by </b>
@@ -44,31 +44,29 @@
         </div>
       </b-col>
 
-    </b-col>
 
-    <b-col class=" py-0 footerseparation2  d-none d-lg-block col-md-3 px-md-5" style="text-align: left">
+      <b-col class=" py-0 footerseparation2  d-none d-lg-block col-md-3 " style="text-align: left">
 
-<div class="">
-        <div>
-          <b> Figma Pack </b>
+        <div class="px-md-5 mx-md-4">
+          <div>
+            <b> Figma Pack </b>
+          </div>
+
+          <div class="mt-1">
+
+            <button type="button" class="btn buttonfigmareduct d-inline-flex">
+
+              <img class="iconfigmareduct" src="~assets/svg/figmaicon.svg">
+
+              <p class="px-1" style="font-size: 10px">
+                Accedi al pack
+              </p>
+            </button>
+          </div>
         </div>
 
-        <div class="mt-1" >
-
-          <button type="button" class="btn buttonfigmareduct d-inline-flex">
-
-            <img class="iconfigmareduct"  src="~assets/svg/figmaicon.svg">
-
-            <p class="px-1" style="font-size: 10px">
-              Accedi al pack
-            </p>
-          </button>
-        </div>
-</div>
-
-    </b-col>
+      </b-col>
     </b-row>
-
 
 
   </div>
@@ -86,14 +84,14 @@ export default {
 
 <style scoped>
 
-.footer{
+.footer {
   background-color: #272D31;
   color: white;
   text-align: center;
   width: 100vw;
 }
 
-.footer_container{
+.footer_container {
   font-size: 16px;
   text-align: left;
 }
@@ -102,12 +100,12 @@ a {
   color: white;
 }
 
-.footerseparation{
+.footerseparation {
   border-right: 2px white solid;
   height: 60px;
 }
 
-.footerseparation2{
+.footerseparation2 {
   border-left: 2px white solid;
   height: 60px;
 }
@@ -129,21 +127,22 @@ a {
 
 @media (max-width: 768px) {
 
-  .footer_container{
+  .footer_container {
 
     font-size: 12px;
   }
-  .footerseparation{
+
+  .footerseparation {
     border: none;
     text-align: left;
 
   }
 
-  .poweredby{
+  .poweredby {
     max-width: 100px;
   }
 
-  .footerseparation2{
+  .footerseparation2 {
     border: none;
   }
 

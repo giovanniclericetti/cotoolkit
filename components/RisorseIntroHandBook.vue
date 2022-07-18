@@ -30,9 +30,8 @@
       <b-col class="col-md-4 col-12 py-3 container my-3 my-md-0">
 
 
-
         <div class="solohandbook">
-          <a class="handbook p-2 px-5 " href="../assets/pdf/handbook.pdf">
+          <a class="handbook p-2 px-5 " download target="_blank" href="/pdf/handbook.pdf">
 
             {{handbook}} </a>
         </div>
