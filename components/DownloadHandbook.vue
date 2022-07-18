@@ -18,7 +18,7 @@
     </div>
 
     <div class="my-md-5">
-      <a download target="_blank" href="/pdf/handbook.pdf"> <button type="button" class="btn  buttondownload d-inline-flex">
+      <a download target="_blank" href="/pdf/CommunityBrandingCo-designToolkit_2022.pdf"> <button type="button" class="btn  buttondownload d-inline-flex">
 
         <img class="iconfigma ps-3 pt-md-1 " src="~assets/images/download.png">
 
