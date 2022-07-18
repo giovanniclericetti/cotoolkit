@@ -30,11 +30,14 @@
       <b-col class="col-md-4 col-12 py-3 container my-3 my-md-0">
 
 
-        <div class="solohandbook">
-          <a class="handbook p-2 px-5 " download target="_blank" href="/pdf/handbook.pdf">
+        <a download target="_blank" href="/pdf/handbook.pdf"> <button type="button" class="btn  buttondownloadpage shadow d-inline-flex" >
 
-            {{handbook}} </a>
-        </div>
+          <img class="iconfigma ps-3 pt-md-1 " src="~assets/images/download.png">
+
+          <p class="px-3">
+            Download
+          </p>
+        </button>  </a>
 
 
       </b-col>
@@ -102,6 +105,16 @@ export default {
 
 <style>
 
+.buttondownloadpage {
+  background-color: #f9f9f9;
+  border-radius: 15px;
+  height: 42px;
+}
+
+.buttondownloadpage:hover {
+  background-color: #FCBB16;
+  transition: 0.3s ease-in-out;
+}
 
 
 .risorsetab{

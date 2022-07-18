@@ -136,6 +136,16 @@
 
       <BoxHome class="mb-5"/>
 
+    <div  class="theme-purple">
+      <DownloadHandbook
+        sottotitolo="Scopri la ricerca che sta dietro a questo progetto"
+      >
+
+        Scarica il report
+
+      </DownloadHandbook>
+
+    </div>
 
 <Footer/>
 

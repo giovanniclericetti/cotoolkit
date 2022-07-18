@@ -54,6 +54,10 @@ export default {
   background-color: white;
 }
 
+.sectionone > .row {
+  min-height: calc(100vh - 68px);
+}
+
 .gifcover {
   width: 100%;
 }
