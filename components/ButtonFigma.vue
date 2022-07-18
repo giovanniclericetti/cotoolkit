@@ -1,12 +1,12 @@
 <template>
-  <button type="button" class="btn buttonfigma d-inline-flex">
+  <a href="https://www.figma.com/community/file/1084513568357198052" target="_blank"> <button type="button" class="btn buttonfigma d-inline-flex">
 
     <img class="iconfigma ps-3 pt-md-1 " src="~assets/svg/figmaicon.svg">
 
     <p class="px-3">
       <slot></slot>
     </p>
-  </button>
+  </button> </a>
 </template>
 
 <script>

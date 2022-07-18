@@ -57,7 +57,7 @@
           </b-col>
 
 
-          <b-col class=" p-1"> <b-link to="/tavola/" class="linkhover">
+          <b-col class=" p-1"> <b-link to="/tavoladiprogetto/" class="linkhover">
             <div class="boxhover container py-3 shadow mb-md-5">
               <tavola class="p-2 iconcine" />
               <BoxHover risorsa="Tavola di Progetto">

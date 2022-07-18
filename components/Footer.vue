@@ -54,14 +54,14 @@
 
           <div class="mt-1">
 
-            <button type="button" class="btn buttonfigmareduct d-inline-flex">
+            <a href="https://www.figma.com/community/file/1084513568357198052" target="_blank"><button type="button" class="btn buttonfigmareduct d-inline-flex">
 
               <img class="iconfigmareduct" src="~assets/svg/figmaicon.svg">
 
               <p class="px-1" style="font-size: 10px">
                 Accedi al pack
               </p>
-            </button>
+            </button> </a>
           </div>
         </div>
 
